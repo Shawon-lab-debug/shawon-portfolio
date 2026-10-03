@@ -1,14 +1,8 @@
-import { Container, Section } from '../components';
+
+import { Hero } from '../components/sections/Hero';
 
 function Home() {
-  return (
-    <Section spacing="lg">
-      <Container>
-        <h1>Home</h1>
-        <p>Welcome to Roknuzzaman Shawon's portfolio.</p>
-      </Container>
-    </Section>
-  );
+  return <Hero />;
 }
 
 export default Home;
