@@ -6,11 +6,11 @@
 .site-header {
   position: sticky;
   top: 0;
-  z-index: var(--z-sticky, 100);
+  z-index: 1000;
   isolation: isolate;
   width: 100%;
   border-bottom: 1px solid var(--color-border);
-  background: var(--color-background);
+  background-color: var(--color-bg, #ffffff);
 }
 
 .site-header__inner {
@@ -100,7 +100,7 @@
   gap: 5px;
   border: 1px solid var(--color-border);
   border-radius: var(--radius-md, 8px);
-  background: transparent;
+  background: var(--color-bg, #ffffff);
   color: var(--color-text);
   cursor: pointer;
 }
@@ -144,14 +144,6 @@
 ========================================= */
 
 @media (max-width: 700px) {
-  .site-header {
-    /*
-      Keep the mobile header visually separated
-      from the page content.
-    */
-    background: var(--color-background);
-  }
-
   .site-header__inner {
     min-height: 72px;
     align-items: flex-start;
@@ -161,7 +153,6 @@
 
   .site-logo {
     min-height: 72px;
-    align-items: center;
   }
 
   .navbar-toggle {
@@ -179,7 +170,7 @@
     align-items: stretch;
     gap: 0.25rem;
     border-top: 1px solid var(--color-border);
-    background: var(--color-background);
+    background-color: var(--color-bg, #ffffff);
   }
 
   .site-nav.is-open {
