@@ -1,10 +1,46 @@
+
+import { useEffect, useRef, useState } from 'react';
 import { Link } from 'react-router-dom';
 import './FinalCTA.css';
 
+const shouldShowImmediately = () =>
+  typeof window === 'undefined' ||
+  window.matchMedia('(prefers-reduced-motion: reduce)').matches ||
+  !('IntersectionObserver' in window);
+
 function FinalCTA() {
+  const sectionRef = useRef<HTMLElement>(null);
+  const [isVisible, setIsVisible] = useState(shouldShowImmediately);
+
+  useEffect(() => {
+    if (isVisible) return;
+
+    const section = sectionRef.current;
+
+    if (!section) return;
+
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          setIsVisible(true);
+          observer.unobserve(entry.target);
+        }
+      },
+      {
+        threshold: 0.2,
+        rootMargin: '0px 0px -40px 0px',
+      },
+    );
+
+    observer.observe(section);
+
+    return () => observer.disconnect();
+  }, [isVisible]);
+
   return (
     <section
-      className="final-cta"
+      ref={sectionRef}
+      className={`final-cta${isVisible ? ' final-cta--visible' : ''}`}
       aria-labelledby="final-cta-title"
     >
       <div className="final-cta__container">

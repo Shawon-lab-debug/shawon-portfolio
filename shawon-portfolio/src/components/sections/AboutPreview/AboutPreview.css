@@ -237,3 +237,108 @@
     transition: none;
   }
 }
+
+/* ========================================
+   STEP 2 — ABOUT PREVIEW TEXT REVEAL
+======================================== */
+
+.about-preview__eyebrow,
+.about-preview__title,
+.about-preview__lead,
+.about-preview__description,
+.about-preview__link,
+.about-preview__principles-label,
+.about-preview__principles-list li {
+  opacity: 0;
+  transform: translate3d(0, 24px, 0);
+  filter: blur(3px);
+  transition:
+    opacity 800ms cubic-bezier(0.22, 1, 0.36, 1),
+    transform 800ms cubic-bezier(0.22, 1, 0.36, 1),
+    filter 800ms cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.about-preview--visible .about-preview__eyebrow {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+  filter: blur(0);
+  transition-delay: 100ms;
+}
+
+.about-preview--visible .about-preview__title {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+  filter: blur(0);
+  transition-delay: 250ms;
+}
+
+.about-preview--visible .about-preview__lead {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+  filter: blur(0);
+  transition-delay: 350ms;
+}
+
+.about-preview--visible .about-preview__description {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+  filter: blur(0);
+  transition-delay: 480ms;
+}
+
+.about-preview--visible .about-preview__link {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+  filter: blur(0);
+  transition-delay: 600ms;
+}
+
+.about-preview--visible .about-preview__principles-label {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+  filter: blur(0);
+  transition-delay: 400ms;
+}
+
+.about-preview--visible .about-preview__principles-list li {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+  filter: blur(0);
+}
+
+.about-preview--visible .about-preview__principles-list li:nth-child(1) {
+  transition-delay: 500ms;
+}
+
+.about-preview--visible .about-preview__principles-list li:nth-child(2) {
+  transition-delay: 650ms;
+}
+
+.about-preview--visible .about-preview__principles-list li:nth-child(3) {
+  transition-delay: 800ms;
+}
+
+/* Keep link hover interaction independent from reveal */
+
+.about-preview--visible .about-preview__link:hover span {
+  transform: translate(3px, -3px);
+}
+
+/* ========================================
+   REDUCED MOTION
+======================================== */
+
+@media (prefers-reduced-motion: reduce) {
+  .about-preview__eyebrow,
+  .about-preview__title,
+  .about-preview__lead,
+  .about-preview__description,
+  .about-preview__link,
+  .about-preview__principles-label,
+  .about-preview__principles-list li {
+    opacity: 1;
+    transform: none;
+    filter: none;
+    transition: none;
+  }
+}

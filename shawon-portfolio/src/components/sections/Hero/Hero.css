@@ -642,3 +642,54 @@
     animation: none;
   }
 }
+/* ========================================
+   STEP 2 — HERO TEXT REVEAL
+======================================== */
+
+.hero__motion-item {
+  opacity: 0;
+  animation: hero-text-reveal 850ms cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+.hero__eyebrow.hero__motion-item {
+  animation-delay: 150ms;
+}
+
+.hero__title.hero__motion-item {
+  animation-delay: 300ms;
+}
+
+.hero__description.hero__motion-item {
+  animation-delay: 480ms;
+}
+
+.hero__actions.hero__motion-item {
+  animation-delay: 620ms;
+}
+
+.hero__technologies.hero__motion-item {
+  animation-delay: 780ms;
+}
+
+@keyframes hero-text-reveal {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 28px, 0);
+    filter: blur(4px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+    filter: blur(0);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero__motion-item {
+    opacity: 1;
+    animation: none;
+    filter: none;
+    transform: none;
+  }
+}

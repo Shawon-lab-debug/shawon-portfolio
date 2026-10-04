@@ -1,0 +1,74 @@
+
+/* ========================================
+   SHARED SCROLL REVEAL FOUNDATION
+======================================== */
+
+.scroll-reveal {
+  --reveal-distance: 24px;
+  --reveal-duration: 800ms;
+  --reveal-easing: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+/* Content stays visible until the observer is ready. */
+
+.scroll-reveal--ready:not(.scroll-reveal--visible) {
+  opacity: 0;
+  transform: translate3d(0, var(--reveal-distance), 0);
+}
+
+.scroll-reveal--visible {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+  transition:
+    opacity var(--reveal-duration) var(--reveal-easing),
+    transform var(--reveal-duration) var(--reveal-easing);
+}
+
+/* Staggered children */
+
+.scroll-reveal--ready:not(.scroll-reveal--visible)
+  .scroll-reveal__item {
+  opacity: 0;
+  transform: translate3d(0, 18px, 0);
+}
+
+.scroll-reveal--visible .scroll-reveal__item {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+  transition:
+    opacity 700ms var(--reveal-easing),
+    transform 700ms var(--reveal-easing);
+  transition-delay: calc(var(--reveal-index, 0) * 100ms);
+}
+
+/* Word reveal */
+
+.scroll-reveal__word {
+  display: inline-block;
+  opacity: 0;
+  transform: translate3d(0, 0.55em, 0);
+  transition:
+    opacity 650ms var(--reveal-easing),
+    transform 650ms var(--reveal-easing);
+  transition-delay: calc(var(--word-index, 0) * 65ms);
+}
+
+.scroll-reveal--visible .scroll-reveal__word {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+}
+
+/* Reduced motion */
+
+@media (prefers-reduced-motion: reduce) {
+  .scroll-reveal,
+  .scroll-reveal--ready,
+  .scroll-reveal--visible,
+  .scroll-reveal__item,
+  .scroll-reveal__word {
+    opacity: 1 !important;
+    transform: none !important;
+    transition: none !important;
+    animation: none !important;
+  }
+}

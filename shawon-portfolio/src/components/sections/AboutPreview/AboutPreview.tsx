@@ -1,16 +1,54 @@
 
+import { useEffect, useRef, useState } from 'react';
 import { Link } from 'react-router-dom';
 import './AboutPreview.css';
 
+const shouldShowImmediately = () =>
+  typeof window === 'undefined' ||
+  window.matchMedia('(prefers-reduced-motion: reduce)').matches ||
+  !('IntersectionObserver' in window);
+
 function AboutPreview() {
+  const sectionRef = useRef<HTMLElement>(null);
+  const [isVisible, setIsVisible] = useState(shouldShowImmediately);
+
   const principles = [
     'Clean and maintainable code',
     'Responsive user experiences',
     'Thoughtful problem-solving',
   ];
 
+  useEffect(() => {
+    if (isVisible) return;
+
+    const section = sectionRef.current;
+
+    if (!section) return;
+
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          setIsVisible(true);
+          observer.unobserve(entry.target);
+        }
+      },
+      {
+        threshold: 0.2,
+        rootMargin: '0px 0px -40px 0px',
+      },
+    );
+
+    observer.observe(section);
+
+    return () => observer.disconnect();
+  }, [isVisible]);
+
   return (
-    <section className="about-preview" aria-labelledby="about-preview-title">
+    <section
+      ref={sectionRef}
+      className={`about-preview${isVisible ? ' about-preview--visible' : ''}`}
+      aria-labelledby="about-preview-title"
+    >
       <div className="about-preview__container">
         <div className="about-preview__intro">
           <span className="about-preview__eyebrow">

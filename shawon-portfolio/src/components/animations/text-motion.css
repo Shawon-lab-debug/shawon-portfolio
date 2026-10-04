@@ -1,4 +1,8 @@
-/* Word-by-word scroll reveal */
+
+/* =========================================
+   WORD-BY-WORD REVEAL
+========================================= */
+
 .word-reveal {
   display: inline;
 }
@@ -6,11 +10,15 @@
 .word-reveal__word {
   display: inline-block;
   opacity: 0;
-  transform: translate3d(0, 0.65em, 0);
+  transform: translate3d(0, 0.55em, 0);
   transition:
     opacity 650ms cubic-bezier(0.22, 1, 0.36, 1),
     transform 650ms cubic-bezier(0.22, 1, 0.36, 1);
-  transition-delay: calc(var(--word-index, 0) * 75ms);
+  transition-delay: min(
+    calc(var(--word-index, 0) * 55ms),
+    440ms
+  );
+  will-change: opacity, transform;
 }
 
 .word-reveal.is-visible .word-reveal__word,
@@ -19,34 +27,85 @@
   transform: translate3d(0, 0, 0);
 }
 
-/* Staggered Hero entrance */
-.hero__motion-item {
+/* =========================================
+   SECTION HEADING REVEAL
+========================================= */
+
+.section-heading__eyebrow,
+.section-heading__description {
   opacity: 0;
-  animation: hero-text-stagger 700ms cubic-bezier(0.22, 1, 0.36, 1) both;
+  transform: translate3d(0, 14px, 0);
+  transition:
+    opacity 650ms cubic-bezier(0.22, 1, 0.36, 1),
+    transform 650ms cubic-bezier(0.22, 1, 0.36, 1);
 }
 
-.hero__eyebrow.hero__motion-item { animation-delay: 100ms; }
-.hero__title.hero__motion-item { animation-delay: 220ms; }
-.hero__description.hero__motion-item { animation-delay: 360ms; }
-.hero__actions.hero__motion-item { animation-delay: 480ms; }
-.hero__technologies.hero__motion-item { animation-delay: 600ms; }
+.section-heading--visible .section-heading__eyebrow {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+  transition-delay: 80ms;
+}
+
+.section-heading--visible .section-heading__description {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+  transition-delay: 220ms;
+}
+
+/* =========================================
+   HERO STAGGERED ENTRANCE
+========================================= */
+
+.hero__motion-item {
+  opacity: 0;
+  animation: hero-text-stagger 700ms
+    cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+.hero__eyebrow.hero__motion-item {
+  animation-delay: 100ms;
+}
+
+.hero__title.hero__motion-item {
+  animation-delay: 220ms;
+}
+
+.hero__description.hero__motion-item {
+  animation-delay: 360ms;
+}
+
+.hero__actions.hero__motion-item {
+  animation-delay: 480ms;
+}
+
+.hero__technologies.hero__motion-item {
+  animation-delay: 600ms;
+}
 
 @keyframes hero-text-stagger {
   from {
     opacity: 0;
     transform: translate3d(0, 18px, 0);
   }
+
   to {
     opacity: 1;
     transform: translate3d(0, 0, 0);
   }
 }
 
+/* =========================================
+   REDUCED MOTION
+========================================= */
+
 @media (prefers-reduced-motion: reduce) {
-  .word-reveal__word {
+  .word-reveal__word,
+  .section-heading__eyebrow,
+  .section-heading__description {
     opacity: 1;
     transform: none;
     transition: none;
+    will-change: auto;
   }
 
   .hero__motion-item {

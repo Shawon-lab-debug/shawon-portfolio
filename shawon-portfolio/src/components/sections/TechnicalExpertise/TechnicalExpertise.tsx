@@ -1,4 +1,5 @@
 
+import { useEffect, useRef, useState } from 'react';
 import {
   siBootstrap,
   siCplusplus,
@@ -101,10 +102,44 @@ const expertiseGroups: ExpertiseGroup[] = [
   },
 ];
 
+const shouldShowImmediately = () =>
+  typeof window === 'undefined' ||
+  window.matchMedia('(prefers-reduced-motion: reduce)').matches ||
+  !('IntersectionObserver' in window);
+
 function TechnicalExpertise() {
+  const sectionRef = useRef<HTMLElement>(null);
+  const [isVisible, setIsVisible] = useState(shouldShowImmediately);
+
+  useEffect(() => {
+    if (isVisible) return;
+
+    const section = sectionRef.current;
+
+    if (!section) return;
+
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          setIsVisible(true);
+          observer.unobserve(entry.target);
+        }
+      },
+      {
+        threshold: 0.15,
+        rootMargin: '0px 0px -40px 0px',
+      },
+    );
+
+    observer.observe(section);
+
+    return () => observer.disconnect();
+  }, [isVisible]);
+
   return (
     <section
-      className="technical-expertise"
+      ref={sectionRef}
+      className={`technical-expertise${isVisible ? ' technical-expertise--visible' : ''}`}
       aria-labelledby="technical-expertise-title"
     >
       <div className="technical-expertise__container">
@@ -134,10 +169,13 @@ function TechnicalExpertise() {
         </div>
 
         <div className="technical-expertise__list">
-          {expertiseGroups.map((group) => (
+          {expertiseGroups.map((group, index) => (
             <article
               className="expertise-group"
               key={group.number}
+              style={{
+                '--expertise-index': index,
+              } as React.CSSProperties}
             >
               <div
                 className="expertise-group__number"
@@ -160,10 +198,13 @@ function TechnicalExpertise() {
                 className="expertise-group__technologies"
                 aria-label={`${group.title} technologies`}
               >
-                {group.technologies.map((technology) => (
+                {group.technologies.map((technology, technologyIndex) => (
                   <li
                     className="expertise-group__technology"
                     key={technology.name}
+                    style={{
+                      '--technology-index': technologyIndex,
+                    } as React.CSSProperties}
                   >
                     <span
                       className="expertise-group__icon"

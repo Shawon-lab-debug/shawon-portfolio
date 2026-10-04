@@ -63,6 +63,11 @@ const projects: Project[] = [
   },
 ];
 
+const shouldShowImmediately = () =>
+  typeof window === 'undefined' ||
+  window.matchMedia('(prefers-reduced-motion: reduce)').matches ||
+  !('IntersectionObserver' in window);
+
 interface ProjectCardProps {
   project: Project;
   index: number;
@@ -70,24 +75,14 @@ interface ProjectCardProps {
 
 function ProjectCard({ project, index }: ProjectCardProps) {
   const cardRef = useRef<HTMLElement>(null);
-  const [isVisible, setIsVisible] = useState(false);
+  const [isVisible, setIsVisible] = useState(shouldShowImmediately);
 
   useEffect(() => {
+    if (isVisible) return;
+
     const card = cardRef.current;
 
     if (!card) return;
-
-    const reducedMotion = window.matchMedia(
-      '(prefers-reduced-motion: reduce)',
-    ).matches;
-
-    if (
-      reducedMotion ||
-      !('IntersectionObserver' in window)
-    ) {
-      setIsVisible(true);
-      return;
-    }
 
     const observer = new IntersectionObserver(
       ([entry]) => {
@@ -105,7 +100,7 @@ function ProjectCard({ project, index }: ProjectCardProps) {
     observer.observe(card);
 
     return () => observer.disconnect();
-  }, []);
+  }, [isVisible]);
 
   const handlePointerMove = (
     event: PointerEvent<HTMLElement>,
