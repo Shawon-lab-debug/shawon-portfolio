@@ -134,8 +134,8 @@ function ProjectCard({ project, index }: ProjectCardProps) {
     const pointerY =
       (event.clientY - bounds.top) / bounds.height;
 
-    const rotateY = (pointerX - 0.5) * 7;
-    const rotateX = (0.5 - pointerY) * 5;
+    const rotateY = (pointerX - 0.5) * 3;
+    const rotateX = (0.5 - pointerY) * 2;
 
     card.style.setProperty(
       '--project-tilt-x',
