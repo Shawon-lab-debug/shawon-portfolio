@@ -1,16 +1,15 @@
-
-import type { HTMLAttributes, ReactNode } from 'react'
-
-export type HeadingAlignment = 'left' | 'center' | 'right'
-export type HeadingLevel = 2 | 3 | 4
+import type { HTMLAttributes, ReactNode } from 'react';
+import { WordReveal } from '../../animations/WordReveal';
+export type HeadingAlignment = 'left' | 'center' | 'right';
+export type HeadingLevel = 2 | 3 | 4;
 
 export interface SectionHeadingProps
   extends HTMLAttributes<HTMLDivElement> {
-  title: string
-  eyebrow?: string
-  description?: ReactNode
-  align?: HeadingAlignment
-  level?: HeadingLevel
+  title: string;
+  eyebrow?: string;
+  description?: ReactNode;
+  align?: HeadingAlignment;
+  level?: HeadingLevel;
 }
 
 export function SectionHeading({
@@ -22,7 +21,7 @@ export function SectionHeading({
   className = '',
   ...props
 }: SectionHeadingProps) {
-  const HeadingTag = `h${level}` as const
+  const HeadingTag = `h${level}` as const;
 
   const classes = [
     'section-heading',
@@ -30,7 +29,7 @@ export function SectionHeading({
     className,
   ]
     .filter(Boolean)
-    .join(' ')
+    .join(' ');
 
   return (
     <div className={classes} {...props}>
@@ -41,7 +40,7 @@ export function SectionHeading({
       )}
 
       <HeadingTag className="section-heading__title">
-        {title}
+        <WordReveal text={title} />
       </HeadingTag>
 
       {description && (
@@ -50,5 +49,5 @@ export function SectionHeading({
         </div>
       )}
     </div>
-  )
+  );
 }
