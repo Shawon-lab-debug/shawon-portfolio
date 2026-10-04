@@ -64,7 +64,8 @@
   text-transform: uppercase;
 }
 
-.footer-link-list {
+.footer-link-list,
+.footer-social-list {
   display: flex;
   flex-direction: column;
   gap: 0.9rem;
@@ -75,9 +76,9 @@
 
 .footer-link-list a {
   display: inline-flex;
+  width: fit-content;
   align-items: center;
   gap: 0.35rem;
-  width: fit-content;
   color: var(--color-text-secondary);
   font-size: 0.9rem;
   text-decoration: none;
@@ -91,11 +92,92 @@
   transform: translateX(3px);
 }
 
-.footer-link-list a:focus-visible,
-.footer-logo:focus-visible,
-.footer-back-to-top:focus-visible {
-  outline: 2px solid var(--color-accent, #315fa8);
-  outline-offset: 5px;
+.footer-social-link {
+  display: inline-flex;
+  width: fit-content;
+  align-items: center;
+  gap: 0.75rem;
+  color: var(--color-text-secondary);
+  font-size: 0.9rem;
+  text-decoration: none;
+  transition:
+    color 180ms ease,
+    transform 180ms ease;
+}
+
+.footer-social-link:not(.footer-social-link-disabled):hover {
+  color: var(--color-text);
+  transform: translateX(3px);
+}
+
+.footer-social-icon {
+  display: inline-grid;
+  width: 2rem;
+  height: 2rem;
+  flex-shrink: 0;
+  place-items: center;
+  border: 1px solid var(--color-border);
+  border-radius: 8px;
+  background: var(--color-surface, var(--color-background));
+  color: var(--color-text);
+  transition:
+    background 220ms ease,
+    border-color 220ms ease,
+    color 220ms ease,
+    transform 220ms ease;
+}
+
+.footer-social-icon svg {
+  display: block;
+  width: 1rem;
+  height: 1rem;
+}
+
+/* GitHub: Original dark brand color */
+.footer-social-link:not(.footer-social-link-disabled):hover
+  .footer-social-icon-github {
+  border-color: #181717;
+  background: #181717;
+  color: #fff;
+}
+
+/* LinkedIn: Official brand blue */
+.footer-social-link:not(.footer-social-link-disabled):hover
+  .footer-social-icon-linkedin {
+  border-color: #0a66c2;
+  background: #0a66c2;
+  color: #fff;
+}
+
+/* X: Black background with white logo */
+.footer-social-link:not(.footer-social-link-disabled):hover
+  .footer-social-icon-x {
+  border-color: #000;
+  background: #000;
+  color: #fff;
+}
+
+/* Email: Website accent color */
+.footer-social-link:not(.footer-social-link-disabled):hover
+  .footer-social-icon-email {
+  border-color: var(--color-accent, #315fa8);
+  background: var(--color-accent, #315fa8);
+  color: #fff;
+}
+
+/* Subtle icon lift on hover */
+.footer-social-link:not(.footer-social-link-disabled):hover
+  .footer-social-icon {
+  transform: translateY(-2px);
+}
+
+.footer-social-label {
+  white-space: nowrap;
+}
+
+.footer-social-link-disabled {
+  cursor: default;
+  opacity: 0.7;
 }
 
 .footer-external {
@@ -103,11 +185,12 @@
   opacity: 0.65;
 }
 
-.footer-social-placeholder {
-  margin: 0;
-  color: var(--color-text-secondary);
-  font-size: 0.9rem;
-  line-height: 1.7;
+.footer-link-list a:focus-visible,
+.footer-social-link:focus-visible,
+.footer-logo:focus-visible,
+.footer-back-to-top:focus-visible {
+  outline: 2px solid var(--color-accent, #315fa8);
+  outline-offset: 5px;
 }
 
 .footer-bottom {
@@ -203,12 +286,24 @@
     font-size: 0.7rem;
   }
 
-  .footer-link-list {
+  .footer-link-list,
+  .footer-social-list {
     gap: 0.8rem;
   }
 
-  .footer-link-list a {
+  .footer-link-list a,
+  .footer-social-link {
     font-size: 0.85rem;
+  }
+
+  .footer-social-link {
+    gap: 0.5rem;
+  }
+
+  .footer-social-icon {
+    width: 1.8rem;
+    height: 1.8rem;
+    border-radius: 7px;
   }
 
   .footer-bottom {
@@ -227,12 +322,20 @@
 
 @media (prefers-reduced-motion: reduce) {
   .footer-link-list a,
+  .footer-social-link,
+  .footer-social-icon,
   .footer-back-to-top,
   .footer-back-to-top span {
     transition: none;
   }
 
-  .footer-link-list a:hover {
+  .footer-link-list a:hover,
+  .footer-social-link:not(.footer-social-link-disabled):hover {
+    transform: none;
+  }
+
+  .footer-social-link:not(.footer-social-link-disabled):hover
+    .footer-social-icon {
     transform: none;
   }
 
