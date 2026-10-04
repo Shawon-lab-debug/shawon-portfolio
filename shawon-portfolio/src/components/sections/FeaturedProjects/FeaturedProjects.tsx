@@ -1,0 +1,174 @@
+import { Link } from 'react-router-dom';
+import './FeaturedProjects.css';
+
+const projects = [
+  {
+    number: '01',
+    name: 'Project One',
+    category: 'Fitness & Productivity',
+    description:
+      'A workout tracking application that helps users explore exercises, save workouts for later, and organize their daily training plans.',
+    technologies: ['React', 'API Integration', 'Responsive UI'],
+    status: 'Featured project',
+    image:
+      'https://www.codester.com/static/uploads/items/000/063/63386/preview/021.jpg',
+    imageAlt: 'Fitness application and dashboard interface preview',
+    featured: true,
+  },
+  {
+    number: '02',
+    name: 'Project Two',
+    category: 'Web Application',
+    description:
+      'A space reserved for another project. This section will be updated with its real purpose, features, and technologies.',
+    technologies: ['React', 'TypeScript'],
+    status: 'Coming soon',
+    image:
+      'https://cdn.dribbble.com/userupload/14532003/file/original-b5acb11e6a3d9fd0ae1694c5e81da44b.png?resize=1024x1024&vertical=center',
+    imageAlt: 'Responsive web application dashboard preview',
+    featured: false,
+  },
+  {
+    number: '03',
+    name: 'Project Three',
+    category: 'Dashboard & Management',
+    description:
+      'A space reserved for a future project. Real project details will be added when they are ready to be shared.',
+    technologies: ['JavaScript', 'UI Design'],
+    status: 'Coming soon',
+    image:
+      'https://cdn.dribbble.com/userupload/46599513/file/d4ee5bff14248074bf85358255deb89a.png?resize=752x&vertical=center',
+    imageAlt: 'Modern project management dashboard preview',
+    featured: false,
+  },
+];
+
+function FeaturedProjects() {
+  return (
+    <section
+      className="featured-projects"
+      aria-labelledby="featured-projects-title"
+    >
+      <div className="featured-projects__container">
+        <div className="featured-projects__header">
+          <div className="featured-projects__heading">
+            <span className="featured-projects__eyebrow">
+              <span className="featured-projects__eyebrow-line" />
+              SELECTED WORK
+            </span>
+
+            <h2
+              className="featured-projects__title"
+              id="featured-projects-title"
+            >
+              Things I've
+              <span className="featured-projects__title-accent">
+                been building.
+              </span>
+            </h2>
+          </div>
+
+          <p className="featured-projects__intro">
+            A collection of projects that reflect my interest in
+            thoughtful design, practical problem-solving, and
+            building useful digital experiences.
+          </p>
+        </div>
+
+        <div className="featured-projects__grid">
+          {projects.map((project) => (
+            <article
+              className={`project-card ${
+                project.featured ? 'project-card--featured' : ''
+              }`}
+              key={project.number}
+            >
+              <div className="project-card__image-wrapper">
+                <img
+                  className="project-card__image"
+                  src={project.image}
+                  alt={project.imageAlt}
+                  loading="lazy"
+                />
+
+                <span
+                  className={`project-card__status ${
+                    project.featured
+                      ? 'project-card__status--featured'
+                      : ''
+                  }`}
+                >
+                  {project.status}
+                </span>
+              </div>
+
+              <div className="project-card__body">
+                <div className="project-card__top">
+                  <span className="project-card__number">
+                    {project.number}
+                  </span>
+
+                  <span className="project-card__category">
+                    {project.category}
+                  </span>
+                </div>
+
+                <div className="project-card__content">
+                  <h3 className="project-card__title">
+                    {project.name}
+                  </h3>
+
+                  <p className="project-card__description">
+                    {project.description}
+                  </p>
+                </div>
+
+                <div className="project-card__footer">
+                  <ul
+                    className="project-card__technologies"
+                    aria-label={`${project.name} technologies`}
+                  >
+                    {project.technologies.map((technology) => (
+                      <li key={technology}>{technology}</li>
+                    ))}
+                  </ul>
+
+                  {project.featured ? (
+                    <Link
+                      to="/projects"
+                      className="project-card__link"
+                      aria-label={`Explore ${project.name} and other projects`}
+                    >
+                      <span>Explore project</span>
+                      <span aria-hidden="true">↗</span>
+                    </Link>
+                  ) : (
+                    <span className="project-card__placeholder">
+                      Details pending
+                    </span>
+                  )}
+                </div>
+              </div>
+            </article>
+          ))}
+        </div>
+
+        <div className="featured-projects__bottom">
+          <span className="featured-projects__note">
+            More projects and details will be added over time.
+          </span>
+
+          <Link
+            to="/projects"
+            className="featured-projects__all-link"
+          >
+            View all projects
+            <span aria-hidden="true">↗</span>
+          </Link>
+        </div>
+      </div>
+    </section>
+  );
+}
+
+export default FeaturedProjects;
