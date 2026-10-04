@@ -1,18 +1,19 @@
+
 import { Link } from 'react-router-dom';
 import './FeaturedProjects.css';
 
 const projects = [
   {
     number: '01',
-    name: 'Project One',
+    name: 'FitLog',
     category: 'Fitness & Productivity',
     description:
-      'A workout tracking application that helps users explore exercises, save workouts for later, and organize their daily training plans.',
+      'A workout tracking application that helps users explore exercises, save workouts for later, and organize their daily training plans. Built with a focus on a clear interface and a smooth user experience.',
     technologies: ['React', 'API Integration', 'Responsive UI'],
     status: 'Featured project',
     image:
       'https://www.codester.com/static/uploads/items/000/063/63386/preview/021.jpg',
-    imageAlt: 'Fitness application and dashboard interface preview',
+    imageAlt: 'Fitness application interface preview for FitLog',
     featured: true,
   },
   {
@@ -20,12 +21,12 @@ const projects = [
     name: 'Project Two',
     category: 'Web Application',
     description:
-      'A space reserved for another project. This section will be updated with its real purpose, features, and technologies.',
-    technologies: ['React', 'TypeScript'],
+      'A new project is in preparation. Its purpose, features, and technology stack will be introduced once development is ready to share.',
+    technologies: [],
     status: 'Coming soon',
     image:
       'https://cdn.dribbble.com/userupload/14532003/file/original-b5acb11e6a3d9fd0ae1694c5e81da44b.png?resize=1024x1024&vertical=center',
-    imageAlt: 'Responsive web application dashboard preview',
+    imageAlt: 'Concept preview for a future web application',
     featured: false,
   },
   {
@@ -33,12 +34,12 @@ const projects = [
     name: 'Project Three',
     category: 'Dashboard & Management',
     description:
-      'A space reserved for a future project. Real project details will be added when they are ready to be shared.',
-    technologies: ['JavaScript', 'UI Design'],
+      'Another project is planned for the portfolio. More details will be shared as the project takes shape.',
+    technologies: [],
     status: 'Coming soon',
     image:
       'https://cdn.dribbble.com/userupload/46599513/file/d4ee5bff14248074bf85358255deb89a.png?resize=752x&vertical=center',
-    imageAlt: 'Modern project management dashboard preview',
+    imageAlt: 'Concept preview for a future dashboard project',
     featured: false,
   },
 ];
@@ -53,7 +54,10 @@ function FeaturedProjects() {
         <div className="featured-projects__header">
           <div className="featured-projects__heading">
             <span className="featured-projects__eyebrow">
-              <span className="featured-projects__eyebrow-line" />
+              <span
+                className="featured-projects__eyebrow-line"
+                aria-hidden="true"
+              />
               SELECTED WORK
             </span>
 
@@ -124,27 +128,33 @@ function FeaturedProjects() {
                 </div>
 
                 <div className="project-card__footer">
-                  <ul
-                    className="project-card__technologies"
-                    aria-label={`${project.name} technologies`}
-                  >
-                    {project.technologies.map((technology) => (
-                      <li key={technology}>{technology}</li>
-                    ))}
-                  </ul>
+                  {project.technologies.length > 0 ? (
+                    <ul
+                      className="project-card__technologies"
+                      aria-label={`${project.name} technologies`}
+                    >
+                      {project.technologies.map((technology) => (
+                        <li key={technology}>{technology}</li>
+                      ))}
+                    </ul>
+                  ) : (
+                    <span className="project-card__placeholder">
+                      Details will be announced soon
+                    </span>
+                  )}
 
                   {project.featured ? (
                     <Link
                       to="/projects"
                       className="project-card__link"
-                      aria-label={`Explore ${project.name} and other projects`}
+                      aria-label={`Explore ${project.name} project details`}
                     >
                       <span>Explore project</span>
                       <span aria-hidden="true">↗</span>
                     </Link>
                   ) : (
                     <span className="project-card__placeholder">
-                      Details pending
+                      In progress
                     </span>
                   )}
                 </div>
@@ -155,7 +165,7 @@ function FeaturedProjects() {
 
         <div className="featured-projects__bottom">
           <span className="featured-projects__note">
-            More projects and details will be added over time.
+            More projects will be added as they are ready to share.
           </span>
 
           <Link
