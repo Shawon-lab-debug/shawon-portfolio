@@ -1,0 +1,81 @@
+<svg width="1400" height="900" viewBox="0 0 1400 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1400" y2="900" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#F7F8FA"/>
+    <stop offset="1" stop-color="#ECEFF4"/>
+  </linearGradient>
+  <linearGradient id="screen" x1="430" y1="190" x2="1050" y2="650" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#17191E"/>
+    <stop offset="1" stop-color="#272B34"/>
+  </linearGradient>
+  <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#FFFFFF" stop-opacity=".9"/>
+    <stop offset="1" stop-color="#F4F6FA" stop-opacity=".72"/>
+  </linearGradient>
+  <filter id="shadow" x="270" y="100" width="900" height="720" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+    <feDropShadow dx="0" dy="26" stdDeviation="28" flood-color="#172033" flood-opacity=".12"/>
+  </filter>
+  <filter id="soft" x="-50%" y="-50%" width="200%" height="200%">
+    <feGaussianBlur stdDeviation="18"/>
+  </filter>
+  <pattern id="grid" width="44" height="44" patternUnits="userSpaceOnUse">
+    <path d="M44 0H0V44" stroke="#B9C2D0" stroke-opacity=".28"/>
+  </pattern>
+</defs>
+<rect width="1400" height="900" rx="34" fill="url(#bg)"/>
+<rect x="0" y="0" width="1400" height="900" rx="34" fill="url(#grid)" opacity=".52"/>
+<circle cx="1180" cy="160" r="170" fill="#3158FF" fill-opacity=".055" filter="url(#soft)"/>
+<circle cx="240" cy="730" r="190" fill="#3158FF" fill-opacity=".04" filter="url(#soft)"/>
+
+<g filter="url(#shadow)">
+  <rect x="300" y="128" width="800" height="520" rx="28" fill="white"/>
+  <rect x="300.75" y="128.75" width="798.5" height="518.5" rx="27.25" stroke="#DDE2EA" stroke-width="1.5"/>
+  <rect x="300" y="128" width="800" height="58" rx="28" fill="#F8F9FB"/>
+  <path d="M300 186H1100" stroke="#E2E6ED"/>
+  <circle cx="334" cy="157" r="6" fill="#D9DEE7"/>
+  <circle cx="356" cy="157" r="6" fill="#D9DEE7"/>
+  <circle cx="378" cy="157" r="6" fill="#D9DEE7"/>
+  <rect x="472" y="148" width="360" height="19" rx="9.5" fill="#EEF1F5"/>
+  <rect x="452" y="212" width="596" height="398" rx="16" fill="url(#screen)"/>
+  <rect x="452" y="212" width="596" height="398" rx="16" stroke="#353B47"/>
+  <path d="M500 267H650" stroke="#7D8797" stroke-width="7" stroke-linecap="round"/>
+  <path d="M500 310H790" stroke="#D7DCE5" stroke-width="7" stroke-linecap="round"/>
+  <path d="M500 353H730" stroke="#7B8798" stroke-width="7" stroke-linecap="round"/>
+  <path d="M500 396H865" stroke="#D7DCE5" stroke-width="7" stroke-linecap="round"/>
+  <path d="M500 439H690" stroke="#7B8798" stroke-width="7" stroke-linecap="round"/>
+  <path d="M500 482H815" stroke="#D7DCE5" stroke-width="7" stroke-linecap="round"/>
+  <path d="M500 525H620" stroke="#3158FF" stroke-width="7" stroke-linecap="round"/>
+  <path d="M642 525H760" stroke="#D7DCE5" stroke-width="7" stroke-linecap="round"/>
+  <rect x="902" y="250" width="105" height="118" rx="12" fill="#20242C" stroke="#454C59"/>
+  <circle cx="955" cy="291" r="22" fill="#3158FF" fill-opacity=".12" stroke="#3158FF" stroke-opacity=".6"/>
+  <path d="M946 291L953 298L967 282" stroke="#3158FF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M925 334H984" stroke="#8E98A8" stroke-width="6" stroke-linecap="round"/>
+  <path d="M925 350H970" stroke="#5F6877" stroke-width="6" stroke-linecap="round"/>
+  <rect x="420" y="678" width="560" height="24" rx="12" fill="#DCE1E9"/>
+  <path d="M610 678L578 735H822L790 678" fill="#F4F6F9" stroke="#D3D9E2" stroke-width="2"/>
+</g>
+
+<g>
+  <rect x="1040" y="360" width="250" height="142" rx="20" fill="url(#glass)" stroke="#D8DEE8"/>
+  <text x="1070" y="397" fill="#7C8593" font-family="Arial, sans-serif" font-size="14" font-weight="700" letter-spacing="2">FULL STACK</text>
+  <text x="1070" y="430" fill="#17191E" font-family="Arial, sans-serif" font-size="22" font-weight="700">Interface → API</text>
+  <text x="1070" y="459" fill="#6F7784" font-family="Arial, sans-serif" font-size="15">→ Data → Product</text>
+  <circle cx="1248" cy="398" r="7" fill="#3158FF"/>
+</g>
+
+<g>
+  <rect x="112" y="252" width="224" height="126" rx="20" fill="url(#glass)" stroke="#D8DEE8"/>
+  <text x="140" y="290" fill="#7C8593" font-family="Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="2">WORKFLOW</text>
+  <text x="140" y="325" fill="#17191E" font-family="Arial, sans-serif" font-size="20" font-weight="700">Build</text>
+  <text x="140" y="350" fill="#6F7784" font-family="Arial, sans-serif" font-size="15">Learn · Refine · Ship</text>
+  <path d="M285 288V345" stroke="#3158FF" stroke-width="2"/>
+</g>
+
+<g opacity=".75">
+  <circle cx="178" cy="670" r="34" fill="#FFFFFF" stroke="#D5DBE5"/>
+  <path d="M166 670H190M178 658V682" stroke="#3158FF" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="1215" cy="690" r="48" fill="#FFFFFF" stroke="#D5DBE5"/>
+  <circle cx="1215" cy="690" r="16" stroke="#3158FF" stroke-width="2"/>
+  <circle cx="1215" cy="690" r="31" stroke="#3158FF" stroke-opacity=".25"/>
+</g>
+</svg>
