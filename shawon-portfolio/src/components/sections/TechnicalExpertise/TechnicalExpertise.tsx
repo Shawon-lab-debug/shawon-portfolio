@@ -161,27 +161,46 @@ function TechnicalExpertise() {
             </h2>
           </div>
 
-          <p className="technical-expertise__intro">
-            A selection of languages, frameworks, and tools I use
-            to explore ideas, solve problems, and build modern
-            digital experiences.
-          </p>
+          <div className="technical-expertise__intro-wrap">
+            <span className="technical-expertise__intro-label">
+              MY TOOLKIT
+            </span>
+
+            <p className="technical-expertise__intro">
+              A selection of languages, frameworks, and tools I use
+              to explore ideas, solve problems, and build modern
+              digital experiences.
+            </p>
+          </div>
         </div>
 
         <div className="technical-expertise__list">
           {expertiseGroups.map((group, index) => (
             <article
-              className="expertise-group"
+              className={`expertise-group${index === 0 ? ' expertise-group--featured' : ''}`}
               key={group.number}
-              style={{
-                '--expertise-index': index,
-              } as React.CSSProperties}
+              style={
+                {
+                  '--expertise-index': index,
+                } as React.CSSProperties
+              }
             >
-              <div
-                className="expertise-group__number"
-                aria-hidden="true"
-              >
-                {group.number}
+              <div className="expertise-group__top">
+                <span className="expertise-group__number">
+                  {group.number}
+                </span>
+
+                <span className="expertise-group__indicator" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none">
+                    <path
+                      d="M7 17 17 7M7 7h10v10"
+                      stroke="currentColor"
+                      strokeWidth="1.5"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    />
+                  </svg>
+                </span>
               </div>
 
               <div className="expertise-group__details">
@@ -202,9 +221,11 @@ function TechnicalExpertise() {
                   <li
                     className="expertise-group__technology"
                     key={technology.name}
-                    style={{
-                      '--technology-index': technologyIndex,
-                    } as React.CSSProperties}
+                    style={
+                      {
+                        '--technology-index': technologyIndex,
+                      } as React.CSSProperties
+                    }
                   >
                     <span
                       className="expertise-group__icon"
@@ -233,17 +254,41 @@ function TechnicalExpertise() {
         </div>
 
         <div className="technical-expertise__footer">
-          <span
-            className="technical-expertise__footer-mark"
-            aria-hidden="true"
-          >
-            +
-          </span>
+          <div className="technical-expertise__footer-note">
+            <span
+              className="technical-expertise__footer-mark"
+              aria-hidden="true"
+            >
+              +
+            </span>
 
-          <p>
-            Always learning, always building. My toolkit continues
-            to grow with every project and new challenge.
-          </p>
+            <p>
+              Always learning, always building. My toolkit continues
+              to grow with every project and new challenge.
+            </p>
+          </div>
+
+          <a
+            className="technical-expertise__cta"
+            href="/about"
+            aria-label="Explore my full tech stack on the About page"
+          >
+            <span>Explore My Tech Stack</span>
+
+            <svg
+              viewBox="0 0 24 24"
+              fill="none"
+              aria-hidden="true"
+            >
+              <path
+                d="M5 12h14m-6-6 6 6-6 6"
+                stroke="currentColor"
+                strokeWidth="1.7"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              />
+            </svg>
+          </a>
         </div>
       </div>
     </section>
