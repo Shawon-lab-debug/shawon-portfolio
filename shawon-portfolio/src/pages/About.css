@@ -2,11 +2,23 @@
 
 
 
+
+
+
+
   padding-top: 2rem;
 
 
 
+
+
+
+
   overflow: hidden;
+
+
+
+
 
 
 
@@ -22,7 +34,15 @@
 
 
 
+
+
+
+
   width: 100%;
+
+
+
+
 
 
 
@@ -38,7 +58,15 @@
 
 
 
+
+
+
+
   display: inline-block;
+
+
+
+
 
 
 
@@ -46,7 +74,15 @@
 
 
 
+
+
+
+
   font-size: 0.72rem;
+
+
+
+
 
 
 
@@ -54,7 +90,15 @@
 
 
 
+
+
+
+
   letter-spacing: 0.16em;
+
+
+
+
 
 
 
@@ -62,7 +106,15 @@
 
 
 
+
+
+
+
   text-transform: uppercase;
+
+
+
+
 
 
 
@@ -78,7 +130,15 @@
 
 
 
+
+
+
+
   display: flex;
+
+
+
+
 
 
 
@@ -86,7 +146,15 @@
 
 
 
+
+
+
+
   gap: 0.7rem;
+
+
+
+
 
 
 
@@ -94,7 +162,15 @@
 
 
 
+
+
+
+
   font-size: 0.68rem;
+
+
+
+
 
 
 
@@ -102,11 +178,23 @@
 
 
 
+
+
+
+
   letter-spacing: 0.12em;
 
 
 
+
+
+
+
   text-transform: uppercase;
+
+
+
+
 
 
 
@@ -122,7 +210,15 @@
 
 
 
+
+
+
+
   color: var(--color-accent, #3158ff);
+
+
+
+
 
 
 
@@ -138,7 +234,15 @@
 
 
 
+
+
+
+
 /* HERO */
+
+
+
+
 
 
 
@@ -154,11 +258,23 @@
 
 
 
+
+
+
+
   position: relative;
 
 
 
+
+
+
+
   padding: 2.25rem 0 2.5rem;
+
+
+
+
 
 
 
@@ -174,7 +290,15 @@
 
 
 
+
+
+
+
   display: flex;
+
+
+
+
 
 
 
@@ -182,11 +306,23 @@
 
 
 
+
+
+
+
   justify-content: space-between;
 
 
 
+
+
+
+
   margin-bottom: 2.5rem;
+
+
+
+
 
 
 
@@ -202,7 +338,15 @@
 
 
 
+
+
+
+
   display: flex;
+
+
+
+
 
 
 
@@ -210,7 +354,15 @@
 
 
 
+
+
+
+
   gap: 0.65rem;
+
+
+
+
 
 
 
@@ -218,7 +370,15 @@
 
 
 
+
+
+
+
   font-size: 0.7rem;
+
+
+
+
 
 
 
@@ -226,7 +386,15 @@
 
 
 
+
+
+
+
   letter-spacing: 0.15em;
+
+
+
+
 
 
 
@@ -242,7 +410,15 @@
 
 
 
+
+
+
+
   width: 1.5rem;
+
+
+
+
 
 
 
@@ -250,7 +426,15 @@
 
 
 
+
+
+
+
   background: var(--color-accent, #3158ff);
+
+
+
+
 
 
 
@@ -266,7 +450,15 @@
 
 
 
+
+
+
+
   color: var(--color-text-muted, #888);
+
+
+
+
 
 
 
@@ -274,7 +466,15 @@
 
 
 
+
+
+
+
   letter-spacing: 0.1em;
+
+
+
+
 
 
 
@@ -290,7 +490,15 @@
 
 
 
+
+
+
+
   display: grid;
+
+
+
+
 
 
 
@@ -298,7 +506,15 @@
 
 
 
+
+
+
+
     minmax(0, 0.88fr)
+
+
+
+
 
 
 
@@ -306,7 +522,15 @@
 
 
 
+
+
+
+
   align-items: start;
+
+
+
+
 
 
 
@@ -314,7 +538,15 @@
 
 
 
+
+
+
+
   min-width: 0;
+
+
+
+
 
 
 
@@ -330,7 +562,15 @@
 
 
 
+
+
+
+
   position: relative;
+
+
+
+
 
 
 
@@ -338,7 +578,15 @@
 
 
 
+
+
+
+
   display: flex;
+
+
+
+
 
 
 
@@ -346,7 +594,15 @@
 
 
 
+
+
+
+
   max-width: 100%;
+
+
+
+
 
 
 
@@ -354,11 +610,23 @@
 
 
 
+
+
+
+
   align-items: flex-start;
 
 
 
+
+
+
+
   padding-top: 0;
+
+
+
+
 
 
 
@@ -374,7 +642,15 @@
 
 
 
+
+
+
+
   display: inline-flex;
+
+
+
+
 
 
 
@@ -382,7 +658,15 @@
 
 
 
+
+
+
+
   margin-bottom: 1.15rem;
+
+
+
+
 
 
 
@@ -390,7 +674,15 @@
 
 
 
+
+
+
+
   font-size: 0.72rem;
+
+
+
+
 
 
 
@@ -398,11 +690,23 @@
 
 
 
+
+
+
+
   letter-spacing: 0.16em;
 
 
 
+
+
+
+
   line-height: 1.2;
+
+
+
+
 
 
 
@@ -416,25 +720,87 @@
 
 .about-hero__title {
 
+
+
+
+
+
+
   display: block;
+
+
+
+
+
+
 
   width: 100%;
 
+
+
+
+
+
+
   max-width: 560px;
+
+
+
+
+
+
 
   margin: 0;
 
+
+
+
+
+
+
   color: var(--color-text, #171717);
+
+
+
+
+
+
 
   font-size: clamp(3.8rem, 5.5vw, 6rem);
 
+
+
+
+
+
+
   font-weight: 650;
+
+
+
+
+
+
 
   letter-spacing: -0.075em;
 
+
+
+
+
+
+
   line-height: 0.92;
 
+
+
+
+
+
+
 }
+
+
 
 
 
@@ -444,11 +810,23 @@
 
 
 
+
+
+
+
   display: block;
 
 
 
+
+
+
+
   width: 100%;
+
+
+
+
 
 
 
@@ -464,11 +842,23 @@
 
 
 
+
+
+
+
   display: block;
 
 
 
+
+
+
+
   width: 100%;
+
+
+
+
 
 
 
@@ -484,11 +874,23 @@
 
 
 
+
+
+
+
   display: block;
 
 
 
+
+
+
+
   width: 100%;
+
+
+
+
 
 
 
@@ -504,11 +906,23 @@
 
 
 
+
+
+
+
   display: block;
 
 
 
+
+
+
+
   color: var(--color-text-muted, #777);
+
+
+
+
 
 
 
@@ -522,11 +936,35 @@
 
 .about-hero__title {
 
+
+
+
+
+
+
   position: relative;
+
+
+
+
+
+
 
   min-height: 1.84em;
 
+
+
+
+
+
+
   overflow: visible;
+
+
+
+
+
+
 
 }
 
@@ -538,7 +976,17 @@
 
 .about-hero__title-scramble,
 
+
+
+
+
+
+
 .about-hero__title-rotation-layer {
+
+
+
+
 
 
 
@@ -546,7 +994,15 @@
 
 
 
+
+
+
+
   inset: 0;
+
+
+
+
 
 
 
@@ -554,7 +1010,15 @@
 
 
 
+
+
+
+
   width: 100%;
+
+
+
+
 
 
 
@@ -570,7 +1034,15 @@
 
 
 
+
+
+
+
   z-index: 2;
+
+
+
+
 
 
 
@@ -578,7 +1050,15 @@
 
 
 
+
+
+
+
   transition: opacity 260ms ease;
+
+
+
+
 
 
 
@@ -594,11 +1074,23 @@
 
 
 
+
+
+
+
   opacity: 0;
 
 
 
+
+
+
+
   pointer-events: none;
+
+
+
+
 
 
 
@@ -614,7 +1106,15 @@
 
 
 
+
+
+
+
   z-index: 1;
+
+
+
+
 
 
 
@@ -622,11 +1122,23 @@
 
 
 
+
+
+
+
   transition: opacity 320ms ease;
 
 
 
+
+
+
+
   pointer-events: none;
+
+
+
+
 
 
 
@@ -642,7 +1154,15 @@
 
 
 
+
+
+
+
   opacity: 1;
+
+
+
+
 
 
 
@@ -656,7 +1176,17 @@
 
 .about-hero__title-static,
 
+
+
+
+
+
+
 .about-hero__title-accent {
+
+
+
+
 
 
 
@@ -664,7 +1194,15 @@
 
 
 
+
+
+
+
   width: 100%;
+
+
+
+
 
 
 
@@ -678,31 +1216,103 @@
 
 .about-hero__title-static {
 
+
+
+
+
+
+
   color: var(--color-text, #171717);
+
+
+
+
+
+
 
   white-space: nowrap;
 
+
+
+
+
+
+
 }
+
+
+
+
 
 
 
 .about-hero__title-accent {
 
+
+
+
+
+
+
   position: relative;
+
+
+
+
+
+
 
   display: block;
 
+
+
+
+
+
+
   width: 100%;
+
+
+
+
+
+
 
   height: 0.92em;
 
+
+
+
+
+
+
   min-height: 0.92em;
+
+
+
+
+
+
 
   overflow: visible;
 
+
+
+
+
+
+
   box-sizing: border-box;
 
+
+
+
+
+
+
 }
+
+
 
 
 
@@ -710,21 +1320,75 @@
 
 .about-hero__title-rotating {
 
+
+
+
+
+
+
   display: block;
+
+
+
+
+
+
 
   width: 100%;
 
+
+
+
+
+
+
   white-space: nowrap;
+
+
+
+
+
+
 
   opacity: 0;
 
+
+
+
+
+
+
   transform: translateY(0.12em);
+
+
+
+
+
+
 
   transition:
 
+
+
+
+
+
+
     opacity 320ms ease,
 
+
+
+
+
+
+
     transform 320ms cubic-bezier(0.22, 1, 0.36, 1);
+
+
+
+
+
+
 
 }
 
@@ -738,11 +1402,23 @@
 
 
 
+
+
+
+
   opacity: 1;
 
 
 
+
+
+
+
   transform: translateY(0);
+
+
+
+
 
 
 
@@ -758,11 +1434,23 @@
 
 
 
+
+
+
+
   opacity: 0;
 
 
 
+
+
+
+
   transform: translateY(-0.12em);
+
+
+
+
 
 
 
@@ -778,7 +1466,15 @@
 
 
 
+
+
+
+
   max-width: 34rem;
+
+
+
+
 
 
 
@@ -786,7 +1482,15 @@
 
 
 
+
+
+
+
   color: var(--color-text-muted, #707070);
+
+
+
+
 
 
 
@@ -794,7 +1498,15 @@
 
 
 
+
+
+
+
   line-height: 1.8;
+
+
+
+
 
 
 
@@ -810,7 +1522,15 @@
 
 
 
+
+
+
+
   display: flex;
+
+
+
+
 
 
 
@@ -818,11 +1538,23 @@
 
 
 
+
+
+
+
   gap: 0.6rem;
 
 
 
+
+
+
+
   margin-top: 1.5rem;
+
+
+
+
 
 
 
@@ -838,7 +1570,15 @@
 
 
 
+
+
+
+
   display: inline-flex;
+
+
+
+
 
 
 
@@ -846,7 +1586,15 @@
 
 
 
+
+
+
+
   gap: 0.55rem;
+
+
+
+
 
 
 
@@ -854,7 +1602,15 @@
 
 
 
+
+
+
+
   padding: 0.5rem 0.85rem;
+
+
+
+
 
 
 
@@ -862,7 +1618,15 @@
 
 
 
+
+
+
+
   border-radius: 999px;
+
+
+
+
 
 
 
@@ -870,7 +1634,15 @@
 
 
 
+
+
+
+
   color: var(--color-text-muted, #666);
+
+
+
+
 
 
 
@@ -878,7 +1650,15 @@
 
 
 
+
+
+
+
   font-weight: 600;
+
+
+
+
 
 
 
@@ -886,7 +1666,15 @@
 
 
 
+
+
+
+
     border-color 180ms ease,
+
+
+
+
 
 
 
@@ -894,7 +1682,15 @@
 
 
 
+
+
+
+
     transform 180ms ease;
+
+
+
+
 
 
 
@@ -910,7 +1706,15 @@
 
 
 
+
+
+
+
   border-color: rgba(49, 88, 255, 0.35);
+
+
+
+
 
 
 
@@ -918,7 +1722,15 @@
 
 
 
+
+
+
+
   transform: translateY(-2px);
+
+
+
+
 
 
 
@@ -934,7 +1746,15 @@
 
 
 
+
+
+
+
   display: inline-flex;
+
+
+
+
 
 
 
@@ -942,11 +1762,23 @@
 
 
 
+
+
+
+
   justify-content: center;
 
 
 
+
+
+
+
   flex: 0 0 auto;
+
+
+
+
 
 
 
@@ -962,7 +1794,15 @@
 
 
 
+
+
+
+
   display: block;
+
+
+
+
 
 
 
@@ -970,7 +1810,15 @@
 
 
 
+
+
+
+
   height: 100%;
+
+
+
+
 
 
 
@@ -986,11 +1834,23 @@
 
 
 
+
+
+
+
   width: 1.05rem;
 
 
 
+
+
+
+
   height: 1.05rem;
+
+
+
+
 
 
 
@@ -1006,11 +1866,23 @@
 
 
 
+
+
+
+
   width: 1.55rem;
 
 
 
+
+
+
+
   height: 1.55rem;
+
+
+
+
 
 
 
@@ -1026,11 +1898,23 @@
 
 
 
+
+
+
+
   width: 2rem;
 
 
 
+
+
+
+
   height: 2rem;
+
+
+
+
 
 
 
@@ -1046,7 +1930,15 @@
 
 
 
+
+
+
+
 /* SCROLL TO EXPLORE */
+
+
+
+
 
 
 
@@ -1062,7 +1954,15 @@
 
 
 
+
+
+
+
   display: flex;
+
+
+
+
 
 
 
@@ -1070,7 +1970,15 @@
 
 
 
+
+
+
+
   align-items: center;
+
+
+
+
 
 
 
@@ -1078,7 +1986,15 @@
 
 
 
+
+
+
+
   gap: 0.9rem;
+
+
+
+
 
 
 
@@ -1086,11 +2002,23 @@
 
 
 
+
+
+
+
   margin-top: 2.3rem;
 
 
 
+
+
+
+
   padding-top: 0.25rem;
+
+
+
+
 
 
 
@@ -1106,7 +2034,15 @@
 
 
 
+
+
+
+
   display: block;
+
+
+
+
 
 
 
@@ -1114,7 +2050,15 @@
 
 
 
+
+
+
+
   font-size: 0.68rem;
+
+
+
+
 
 
 
@@ -1122,7 +2066,15 @@
 
 
 
+
+
+
+
   letter-spacing: 0.17em;
+
+
+
+
 
 
 
@@ -1130,7 +2082,15 @@
 
 
 
+
+
+
+
   text-align: center;
+
+
+
+
 
 
 
@@ -1146,7 +2106,15 @@
 
 
 
+
+
+
+
   display: flex;
+
+
+
+
 
 
 
@@ -1154,7 +2122,15 @@
 
 
 
+
+
+
+
   justify-content: center;
+
+
+
+
 
 
 
@@ -1162,7 +2138,15 @@
 
 
 
+
+
+
+
   height: 2.8rem;
+
+
+
+
 
 
 
@@ -1170,7 +2154,15 @@
 
 
 
+
+
+
+
   border: 1px solid rgba(35, 35, 35, 0.14);
+
+
+
+
 
 
 
@@ -1178,7 +2170,15 @@
 
 
 
+
+
+
+
   background: rgba(255, 255, 255, 0.78);
+
+
+
+
 
 
 
@@ -1186,7 +2186,15 @@
 
 
 
+
+
+
+
   cursor: pointer;
+
+
+
+
 
 
 
@@ -1194,7 +2202,15 @@
 
 
 
+
+
+
+
     0 0.5rem 1.5rem rgba(30, 30, 30, 0.045),
+
+
+
+
 
 
 
@@ -1202,7 +2218,15 @@
 
 
 
+
+
+
+
   transition:
+
+
+
+
 
 
 
@@ -1210,7 +2234,15 @@
 
 
 
+
+
+
+
     background 200ms ease,
+
+
+
+
 
 
 
@@ -1218,7 +2250,15 @@
 
 
 
+
+
+
+
     transform 200ms ease;
+
+
+
+
 
 
 
@@ -1234,7 +2274,15 @@
 
 
 
+
+
+
+
   border-color: rgba(49, 88, 255, 0.38);
+
+
+
+
 
 
 
@@ -1242,7 +2290,15 @@
 
 
 
+
+
+
+
   box-shadow:
+
+
+
+
 
 
 
@@ -1250,11 +2306,23 @@
 
 
 
+
+
+
+
     inset 0 1px 0 rgba(255, 255, 255, 0.9);
 
 
 
+
+
+
+
   transform: translateY(-2px);
+
+
+
+
 
 
 
@@ -1270,11 +2338,23 @@
 
 
 
+
+
+
+
   outline: 2px solid rgba(49, 88, 255, 0.45);
 
 
 
+
+
+
+
   outline-offset: 4px;
+
+
+
+
 
 
 
@@ -1290,7 +2370,15 @@
 
 
 
+
+
+
+
   display: flex;
+
+
+
+
 
 
 
@@ -1298,7 +2386,15 @@
 
 
 
+
+
+
+
   justify-content: center;
+
+
+
+
 
 
 
@@ -1306,7 +2402,15 @@
 
 
 
+
+
+
+
   height: 100%;
+
+
+
+
 
 
 
@@ -1314,7 +2418,15 @@
 
 
 
+
+
+
+
   font-weight: 400;
+
+
+
+
 
 
 
@@ -1322,7 +2434,15 @@
 
 
 
+
+
+
+
   animation: scroll-arrow 1.7s ease-in-out infinite;
+
+
+
+
 
 
 
@@ -1338,7 +2458,15 @@
 
 
 
+
+
+
+
   0%,
+
+
+
+
 
 
 
@@ -1346,11 +2474,23 @@
 
 
 
+
+
+
+
     transform: translateY(-3px);
 
 
 
+
+
+
+
     opacity: 0.5;
+
+
+
+
 
 
 
@@ -1366,7 +2506,15 @@
 
 
 
+
+
+
+
     transform: translateY(5px);
+
+
+
+
 
 
 
@@ -1374,7 +2522,15 @@
 
 
 
+
+
+
+
   }
+
+
+
+
 
 
 
@@ -1390,7 +2546,15 @@
 
 
 
+
+
+
+
 /* FULL STACK VISUAL */
+
+
+
+
 
 
 
@@ -1406,7 +2570,15 @@
 
 
 
+
+
+
+
   position: relative;
+
+
+
+
 
 
 
@@ -1414,7 +2586,15 @@
 
 
 
+
+
+
+
   min-width: 0;
+
+
+
+
 
 
 
@@ -1422,7 +2602,15 @@
 
 
 
+
+
+
+
   box-sizing: border-box;
+
+
+
+
 
 
 
@@ -1430,7 +2618,15 @@
 
 
 
+
+
+
+
   padding: 1.4rem;
+
+
+
+
 
 
 
@@ -1438,7 +2634,15 @@
 
 
 
+
+
+
+
   border-radius: 1.25rem;
+
+
+
+
 
 
 
@@ -1446,7 +2650,15 @@
 
 
 
+
+
+
+
     radial-gradient(
+
+
+
+
 
 
 
@@ -1454,7 +2666,15 @@
 
 
 
+
+
+
+
       rgba(49, 88, 255, 0.08),
+
+
+
+
 
 
 
@@ -1462,7 +2682,15 @@
 
 
 
+
+
+
+
     ),
+
+
+
+
 
 
 
@@ -1470,7 +2698,15 @@
 
 
 
+
+
+
+
       145deg,
+
+
+
+
 
 
 
@@ -1478,7 +2714,15 @@
 
 
 
+
+
+
+
       rgba(247, 247, 245, 0.86)
+
+
+
+
 
 
 
@@ -1486,7 +2730,15 @@
 
 
 
+
+
+
+
   box-shadow:
+
+
+
+
 
 
 
@@ -1494,7 +2746,15 @@
 
 
 
+
+
+
+
     inset 0 1px 0 rgba(255, 255, 255, 0.8);
+
+
+
+
 
 
 
@@ -1510,7 +2770,15 @@
 
 
 
+
+
+
+
   position: absolute;
+
+
+
+
 
 
 
@@ -1518,7 +2786,15 @@
 
 
 
+
+
+
+
   opacity: 0.38;
+
+
+
+
 
 
 
@@ -1526,7 +2802,15 @@
 
 
 
+
+
+
+
     linear-gradient(
+
+
+
+
 
 
 
@@ -1534,7 +2818,15 @@
 
 
 
+
+
+
+
       transparent 1px
+
+
+
+
 
 
 
@@ -1542,7 +2834,15 @@
 
 
 
+
+
+
+
     linear-gradient(
+
+
+
+
 
 
 
@@ -1550,7 +2850,15 @@
 
 
 
+
+
+
+
       rgba(30, 30, 30, 0.035) 1px,
+
+
+
+
 
 
 
@@ -1558,7 +2866,15 @@
 
 
 
+
+
+
+
     );
+
+
+
+
 
 
 
@@ -1566,7 +2882,15 @@
 
 
 
+
+
+
+
   mask-image: linear-gradient(
+
+
+
+
 
 
 
@@ -1574,7 +2898,15 @@
 
 
 
+
+
+
+
     black,
+
+
+
+
 
 
 
@@ -1582,7 +2914,15 @@
 
 
 
+
+
+
+
   );
+
+
+
+
 
 
 
@@ -1598,7 +2938,15 @@
 
 
 
+
+
+
+
 .full-stack-visual__bottom {
+
+
+
+
 
 
 
@@ -1606,7 +2954,15 @@
 
 
 
+
+
+
+
   z-index: 2;
+
+
+
+
 
 
 
@@ -1614,7 +2970,15 @@
 
 
 
+
+
+
+
   justify-content: space-between;
+
+
+
+
 
 
 
@@ -1622,7 +2986,15 @@
 
 
 
+
+
+
+
   color: #858585;
+
+
+
+
 
 
 
@@ -1630,11 +3002,23 @@
 
 
 
+
+
+
+
   font-weight: 700;
 
 
 
+
+
+
+
   letter-spacing: 0.13em;
+
+
+
+
 
 
 
@@ -1650,7 +3034,15 @@
 
 
 
+
+
+
+
   position: relative;
+
+
+
+
 
 
 
@@ -1658,7 +3050,15 @@
 
 
 
+
+
+
+
   display: grid;
+
+
+
+
 
 
 
@@ -1666,11 +3066,7 @@
 
 
 
-    minmax(0, 1fr)
 
-
-
-    minmax(1.5rem, 2rem)
 
 
 
@@ -1678,7 +3074,31 @@
 
 
 
+
+
+
+
     minmax(1.5rem, 2rem)
+
+
+
+
+
+
+
+    minmax(0, 1fr)
+
+
+
+
+
+
+
+    minmax(1.5rem, 2rem)
+
+
+
+
 
 
 
@@ -1686,7 +3106,15 @@
 
 
 
+
+
+
+
   align-items: center;
+
+
+
+
 
 
 
@@ -1694,7 +3122,15 @@
 
 
 
+
+
+
+
   width: 100%;
+
+
+
+
 
 
 
@@ -1702,11 +3138,23 @@
 
 
 
+
+
+
+
   min-height: 25rem;
 
 
 
+
+
+
+
   box-sizing: border-box;
+
+
+
+
 
 
 
@@ -1722,7 +3170,15 @@
 
 
 
+
+
+
+
   display: flex;
+
+
+
+
 
 
 
@@ -1730,11 +3186,23 @@
 
 
 
+
+
+
+
   flex-direction: column;
 
 
 
+
+
+
+
   gap: 0.7rem;
+
+
+
+
 
 
 
@@ -1750,7 +3218,15 @@
 
 
 
+
+
+
+
   margin-bottom: 0.15rem;
+
+
+
+
 
 
 
@@ -1758,7 +3234,15 @@
 
 
 
+
+
+
+
   font-size: 0.62rem;
+
+
+
+
 
 
 
@@ -1766,7 +3250,15 @@
 
 
 
+
+
+
+
   letter-spacing: 0.13em;
+
+
+
+
 
 
 
@@ -1782,7 +3274,15 @@
 
 
 
+
+
+
+
   display: flex;
+
+
+
+
 
 
 
@@ -1790,7 +3290,15 @@
 
 
 
+
+
+
+
   gap: 0.65rem;
+
+
+
+
 
 
 
@@ -1798,7 +3306,15 @@
 
 
 
+
+
+
+
   min-width: 0;
+
+
+
+
 
 
 
@@ -1806,7 +3322,15 @@
 
 
 
+
+
+
+
   padding: 0.78rem;
+
+
+
+
 
 
 
@@ -1814,7 +3338,15 @@
 
 
 
+
+
+
+
   border-radius: 0.8rem;
+
+
+
+
 
 
 
@@ -1822,7 +3354,15 @@
 
 
 
+
+
+
+
   box-shadow: 0 0.7rem 1.8rem rgba(30, 30, 30, 0.035);
+
+
+
+
 
 
 
@@ -1830,7 +3370,15 @@
 
 
 
+
+
+
+
     transform 220ms ease,
+
+
+
+
 
 
 
@@ -1838,7 +3386,15 @@
 
 
 
+
+
+
+
     box-shadow 220ms ease;
+
+
+
+
 
 
 
@@ -1854,7 +3410,15 @@
 
 
 
+
+
+
+
   transform: translateY(-4px);
+
+
+
+
 
 
 
@@ -1862,7 +3426,15 @@
 
 
 
+
+
+
+
   box-shadow: 0 1rem 2rem rgba(30, 30, 30, 0.07);
+
+
+
+
 
 
 
@@ -1878,7 +3450,15 @@
 
 
 
+
+
+
+
   opacity: 0.82;
+
+
+
+
 
 
 
@@ -1894,7 +3474,15 @@
 
 
 
+
+
+
+
   display: flex;
+
+
+
+
 
 
 
@@ -1902,7 +3490,15 @@
 
 
 
+
+
+
+
   justify-content: center;
+
+
+
+
 
 
 
@@ -1910,7 +3506,15 @@
 
 
 
+
+
+
+
   width: 2.15rem;
+
+
+
+
 
 
 
@@ -1918,7 +3522,15 @@
 
 
 
+
+
+
+
   border: 1px solid rgba(49, 88, 255, 0.12);
+
+
+
+
 
 
 
@@ -1926,11 +3538,23 @@
 
 
 
+
+
+
+
   background: rgba(49, 88, 255, 0.035);
 
 
 
+
+
+
+
   color: #3158ff;
+
+
+
+
 
 
 
@@ -1946,7 +3570,15 @@
 
 
 
+
+
+
+
   color: inherit;
+
+
+
+
 
 
 
@@ -1962,7 +3594,15 @@
 
 
 
+
+
+
+
   fill: currentColor;
+
+
+
+
 
 
 
@@ -1978,11 +3618,23 @@
 
 
 
+
+
+
+
   min-width: 0;
 
 
 
+
+
+
+
   overflow: hidden;
+
+
+
+
 
 
 
@@ -1998,7 +3650,15 @@
 
 
 
+
+
+
+
   display: block;
+
+
+
+
 
 
 
@@ -2006,7 +3666,15 @@
 
 
 
+
+
+
+
   color: #7e7e7e;
+
+
+
+
 
 
 
@@ -2014,11 +3682,23 @@
 
 
 
+
+
+
+
   font-weight: 700;
 
 
 
+
+
+
+
   letter-spacing: 0.09em;
+
+
+
+
 
 
 
@@ -2034,7 +3714,15 @@
 
 
 
+
+
+
+
   display: block;
+
+
+
+
 
 
 
@@ -2042,7 +3730,15 @@
 
 
 
+
+
+
+
   color: #242424;
+
+
+
+
 
 
 
@@ -2050,7 +3746,15 @@
 
 
 
+
+
+
+
   font-weight: 650;
+
+
+
+
 
 
 
@@ -2058,7 +3762,15 @@
 
 
 
+
+
+
+
   white-space: nowrap;
+
+
+
+
 
 
 
@@ -2074,7 +3786,15 @@
 
 
 
+
+
+
+
   position: relative;
+
+
+
+
 
 
 
@@ -2082,7 +3802,15 @@
 
 
 
+
+
+
+
   align-items: center;
+
+
+
+
 
 
 
@@ -2090,11 +3818,23 @@
 
 
 
+
+
+
+
   width: 100%;
 
 
 
+
+
+
+
   min-width: 0;
+
+
+
+
 
 
 
@@ -2110,7 +3850,15 @@
 
 
 
+
+
+
+
   width: 100%;
+
+
+
+
 
 
 
@@ -2118,7 +3866,15 @@
 
 
 
+
+
+
+
   background: rgba(49, 88, 255, 0.25);
+
+
+
+
 
 
 
@@ -2134,7 +3890,15 @@
 
 
 
+
+
+
+
   position: absolute;
+
+
+
+
 
 
 
@@ -2142,7 +3906,15 @@
 
 
 
+
+
+
+
   width: 0.4rem;
+
+
+
+
 
 
 
@@ -2150,7 +3922,15 @@
 
 
 
+
+
+
+
   border-radius: 50%;
+
+
+
+
 
 
 
@@ -2158,11 +3938,23 @@
 
 
 
+
+
+
+
   box-shadow: 0 0 0.8rem rgba(49, 88, 255, 0.55);
 
 
 
+
+
+
+
   animation: architecture-packet 2.2s linear infinite;
+
+
+
+
 
 
 
@@ -2178,7 +3970,15 @@
 
 
 
+
+
+
+
   position: absolute;
+
+
+
+
 
 
 
@@ -2186,7 +3986,15 @@
 
 
 
+
+
+
+
   color: #858585;
+
+
+
+
 
 
 
@@ -2194,7 +4002,15 @@
 
 
 
+
+
+
+
   font-weight: 700;
+
+
+
+
 
 
 
@@ -2202,7 +4018,15 @@
 
 
 
+
+
+
+
   white-space: nowrap;
+
+
+
+
 
 
 
@@ -2218,11 +4042,23 @@
 
 
 
+
+
+
+
   padding-top: 0.5rem;
 
 
 
+
+
+
+
   border-top: 1px solid rgba(35, 35, 35, 0.08);
+
+
+
+
 
 
 
@@ -2238,7 +4074,15 @@
 
 
 
+
+
+
+
   0% {
+
+
+
+
 
 
 
@@ -2246,7 +4090,15 @@
 
 
 
+
+
+
+
     opacity: 0;
+
+
+
+
 
 
 
@@ -2262,7 +4114,15 @@
 
 
 
+
+
+
+
     opacity: 1;
+
+
+
+
 
 
 
@@ -2278,7 +4138,15 @@
 
 
 
+
+
+
+
     opacity: 1;
+
+
+
+
 
 
 
@@ -2294,7 +4162,15 @@
 
 
 
+
+
+
+
     left: calc(100% - 0.4rem);
+
+
+
+
 
 
 
@@ -2302,7 +4178,15 @@
 
 
 
+
+
+
+
   }
+
+
+
+
 
 
 
@@ -2318,7 +4202,15 @@
 
 
 
+
+
+
+
 /* COMMON SECTIONS */
+
+
+
+
 
 
 
@@ -2334,7 +4226,15 @@
 
 
 
+
+
+
+
 .about-focus,
+
+
+
+
 
 
 
@@ -2342,7 +4242,15 @@
 
 
 
+
+
+
+
 .about-stack,
+
+
+
+
 
 
 
@@ -2350,7 +4258,15 @@
 
 
 
+
+
+
+
   padding: 6rem 0;
+
+
+
+
 
 
 
@@ -2358,11 +4274,11 @@
 
 
 
+
+
+
+
 }
-
-
-
-
 
 
 
@@ -2371,266 +4287,1778 @@
 
 
 .about-introduction {
+
+
+
+
+
+
+
   position: relative;
+
+
+
+
+
+
+
   padding: 5.5rem 0 6rem;
+
+
+
+
+
+
+
   border-top: 1px solid var(--color-border, #e9e7e2);
+
+
+
+
+
+
+
   scroll-margin-top: 96px;
+
+
+
+
+
+
+
 }
+
+
+
+
+
+
 
 .about-introduction::before {
+
+
+
+
+
+
+
   content: '';
+
+
+
+
+
+
+
   position: absolute;
+
+
+
+
+
+
+
   top: 0;
+
+
+
+
+
+
+
   left: 0;
+
+
+
+
+
+
+
   width: 24%;
+
+
+
+
+
+
+
   height: 1px;
+
+
+
+
+
+
+
   background: var(--color-accent, #3158ff);
+
+
+
+
+
+
+
 }
+
+
+
+
+
+
 
 .about-introduction__topline {
+
+
+
+
+
+
+
   display: grid;
+
+
+
+
+
+
+
   grid-template-columns: 7rem minmax(0, 1fr) auto;
+
+
+
+
+
+
+
   gap: 2rem;
+
+
+
+
+
+
+
   align-items: center;
+
+
+
+
+
+
+
   padding-bottom: 2rem;
+
+
+
+
+
+
+
   border-bottom: 1px solid var(--color-border, #e9e7e2);
+
+
+
+
+
+
+
 }
+
+
+
+
+
+
 
 .about-introduction__topline .about-section-meta {
+
+
+
+
+
+
+
   margin: 0;
+
+
+
+
+
+
+
 }
+
+
+
+
+
+
 
 .about-introduction__topline-label,
+
+
+
+
+
+
+
 .about-introduction__topline-status,
+
+
+
+
+
+
+
 .about-introduction__statement-kicker,
+
+
+
+
+
+
+
 .about-introduction__approach-header,
+
+
+
+
+
+
+
 .about-introduction__story-label {
+
+
+
+
+
+
+
   color: #858585;
+
+
+
+
+
+
+
   font-size: 0.72rem;
+
+
+
+
+
+
+
   font-weight: 700;
+
+
+
+
+
+
+
   letter-spacing: 0.14em;
+
+
+
+
+
+
+
   text-transform: uppercase;
+
+
+
+
+
+
+
 }
+
+
+
+
+
+
 
 .about-introduction__topline-label {
+
+
+
+
+
+
+
   color: var(--color-accent, #3158ff);
+
+
+
+
+
+
+
 }
+
+
+
+
+
+
 
 .about-introduction__topline-status {
+
+
+
+
+
+
+
   color: #9b9b9b;
+
+
+
+
+
+
+
 }
+
+
+
+
+
+
 
 .about-introduction__hero {
+
+
+
+
+
+
+
   display: grid;
+
+
+
+
+
+
+
   grid-template-columns: minmax(0, 0.82fr) minmax(26rem, 1.18fr);
+
+
+
+
+
+
+
   gap: clamp(3rem, 6vw, 6rem);
+
+
+
+
+
+
+
   align-items: center;
+
+
+
+
+
+
+
   padding: 4.5rem 0 5rem;
+
+
+
+
+
+
+
 }
+
+
+
+
+
+
 
 .about-introduction__statement {
+
+
+
+
+
+
+
   min-width: 0;
+
+
+
+
+
+
+
 }
+
+
+
+
+
+
 
 .about-introduction__statement-kicker {
+
+
+
+
+
+
+
   display: block;
+
+
+
+
+
+
+
   margin-bottom: 1.45rem;
+
+
+
+
+
+
+
   color: var(--color-accent, #3158ff);
+
+
+
+
+
+
+
 }
+
+
+
+
+
+
 
 .about-introduction__statement h2 {
+
+
+
+
+
+
+
   max-width: 34rem;
+
+
+
+
+
+
+
   margin: 0;
+
+
+
+
+
+
+
   color: var(--color-text, #171717);
+
+
+
+
+
+
+
   font-size: clamp(3.5rem, 5.7vw, 6.1rem);
+
+
+
+
+
+
+
   font-weight: 620;
+
+
+
+
+
+
+
   letter-spacing: -0.075em;
+
+
+
+
+
+
+
   line-height: 0.9;
+
+
+
+
+
+
+
 }
+
+
+
+
+
+
 
 .about-introduction__statement h2 span {
+
+
+
+
+
+
+
   display: block;
+
+
+
+
+
+
+
   color: var(--color-text-muted, #7b7b7b);
+
+
+
+
+
+
+
 }
+
+
+
+
+
+
 
 .about-introduction__lead {
+
+
+
+
+
+
+
   max-width: 29rem;
+
+
+
+
+
+
+
   margin: 2.2rem 0 0;
+
+
+
+
+
+
+
   color: #707070;
+
+
+
+
+
+
+
   font-size: 1.1rem;
+
+
+
+
+
+
+
   line-height: 1.85;
+
+
+
+
+
+
+
 }
+
+
+
+
+
+
 
 .about-introduction__visual {
+
+
+
+
+
+
+
   position: relative;
+
+
+
+
+
+
+
   display: flex;
+
+
+
+
+
+
+
   min-width: 0;
+
+
+
+
+
+
+
   flex-direction: column;
+
+
+
+
+
+
+
   margin: 0;
+
+
+
+
+
+
+
   overflow: hidden;
+
+
+
+
+
+
+
   border: 1px solid #dfe3e9;
+
+
+
+
+
+
+
   border-radius: 1.15rem;
+
+
+
+
+
+
+
   background: #f1f3f6;
+
+
+
+
+
+
+
   box-shadow: 0 1.8rem 4rem rgba(20, 28, 42, 0.07);
+
+
+
+
+
+
+
   transition: transform 320ms ease, box-shadow 320ms ease;
+
+
+
+
+
+
+
 }
+
+
+
+
+
+
 
 .about-introduction__visual:hover {
+
+
+
+
+
+
+
   transform: translateY(-5px);
+
+
+
+
+
+
+
   box-shadow: 0 2rem 4.5rem rgba(20, 28, 42, 0.11);
+
+
+
+
+
+
+
 }
+
+
+
+
+
+
 
 .about-introduction__visual img {
+
+
+
+
+
+
+
   display: block;
+
+
+
+
+
+
+
   width: 100%;
+
+
+
+
+
+
+
   height: auto;
+
+
+
+
+
+
+
   aspect-ratio: 14 / 9;
+
+
+
+
+
+
+
   object-fit: cover;
+
+
+
+
+
+
+
 }
+
+
+
+
+
+
 
 .about-introduction__visual figcaption {
+
+
+
+
+
+
+
   display: flex;
+
+
+
+
+
+
+
   justify-content: space-between;
+
+
+
+
+
+
+
   gap: 1rem;
+
+
+
+
+
+
+
   padding: 0.95rem 1.1rem;
+
+
+
+
+
+
+
   border-top: 1px solid #dfe3e9;
+
+
+
+
+
+
+
   color: #858b96;
+
+
+
+
+
+
+
   font-size: 0.56rem;
+
+
+
+
+
+
+
   font-weight: 700;
+
+
+
+
+
+
+
   letter-spacing: 0.11em;
+
+
+
+
+
+
+
 }
+
+
+
+
+
+
 
 .about-introduction__visual figcaption span:last-child {
+
+
+
+
+
+
+
   color: #a0a5ae;
+
+
+
+
+
+
+
 }
+
+
+
+
+
+
 
 .about-introduction__approach {
+
+
+
+
+
+
+
   border-top: 1px solid var(--color-border, #e9e7e2);
+
+
+
+
+
+
+
 }
+
+
+
+
+
+
 
 .about-introduction__approach-header {
+
+
+
+
+
+
+
   display: flex;
+
+
+
+
+
+
+
   justify-content: space-between;
+
+
+
+
+
+
+
   gap: 1rem;
+
+
+
+
+
+
+
   padding: 1.35rem 0;
+
+
+
+
+
+
+
   border-bottom: 1px solid #e4e4e1;
+
+
+
+
+
+
+
 }
+
+
+
+
+
+
 
 .about-introduction__principles {
+
+
+
+
+
+
+
   display: grid;
+
+
+
+
+
+
+
   grid-template-columns: repeat(3, minmax(0, 1fr));
+
+
+
+
+
+
+
 }
+
+
+
+
+
+
 
 .about-introduction__principle {
+
+
+
+
+
+
+
   display: grid;
+
+
+
+
+
+
+
   grid-template-columns: 2.2rem minmax(0, 1fr) 1rem;
+
+
+
+
+
+
+
   gap: 1rem;
+
+
+
+
+
+
+
   align-items: start;
+
+
+
+
+
+
+
   min-width: 0;
+
+
+
+
+
+
+
   padding: 2rem 1.5rem 2.15rem 0;
+
+
+
+
+
+
+
   border-bottom: 1px solid #e7e6e3;
+
+
+
+
+
+
+
   transition: transform 220ms ease, border-color 220ms ease;
+
+
+
+
+
+
+
 }
+
+
+
+
+
+
 
 .about-introduction__principle + .about-introduction__principle {
+
+
+
+
+
+
+
   padding-left: 1.5rem;
+
+
+
+
+
+
+
   border-left: 1px solid #e7e6e3;
+
+
+
+
+
+
+
 }
+
+
+
+
+
+
 
 .about-introduction__principle:hover {
+
+
+
+
+
+
+
   transform: translateY(-3px);
+
+
+
+
+
+
+
 }
+
+
+
+
+
+
 
 .about-introduction__principle-number {
+
+
+
+
+
+
+
   padding-top: 0.25rem;
+
+
+
+
+
+
+
   color: var(--color-accent, #3158ff);
+
+
+
+
+
+
+
   font-size: 0.7rem;
+
+
+
+
+
+
+
   font-weight: 700;
+
+
+
+
+
+
+
   letter-spacing: 0.08em;
+
+
+
+
+
+
+
 }
+
+
+
+
+
+
 
 .about-introduction__principle h3 {
+
+
+
+
+
+
+
   margin: 0;
+
+
+
+
+
+
+
   color: #1d1d1d;
+
+
+
+
+
+
+
   font-size: 1.5rem;
+
+
+
+
+
+
+
   font-weight: 650;
+
+
+
+
+
+
+
   letter-spacing: -0.025em;
+
+
+
+
+
+
+
 }
+
+
+
+
+
+
 
 .about-introduction__principle p {
+
+
+
+
+
+
+
   max-width: 25rem;
+
+
+
+
+
+
+
   margin: 0.55rem 0 0;
+
+
+
+
+
+
+
   color: #777;
+
+
+
+
+
+
+
   font-size: 1.02rem;
+
+
+
+
+
+
+
   line-height: 1.72;
+
+
+
+
+
+
+
 }
+
+
+
+
+
+
 
 .about-introduction__principle-mark {
+
+
+
+
+
+
+
   color: #9ca1a8;
+
+
+
+
+
+
+
   font-size: 0.8rem;
+
+
+
+
+
+
+
 }
+
+
+
+
+
+
 
 .about-introduction__story-block {
+
+
+
+
+
+
+
   display: grid;
+
+
+
+
+
+
+
   grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) minmax(11rem, 0.55fr);
+
+
+
+
+
+
+
   gap: clamp(2rem, 4vw, 4rem);
+
+
+
+
+
+
+
   padding-top: 2.8rem;
+
+
+
+
+
+
+
 }
+
+
+
+
+
+
 
 .about-introduction__story {
+
+
+
+
+
+
+
   min-width: 0;
+
+
+
+
+
+
+
 }
+
+
+
+
+
+
 
 .about-introduction__story-label {
+
+
+
+
+
+
+
   display: block;
+
+
+
+
+
+
+
   margin-bottom: 0.95rem;
+
+
+
+
+
+
+
   color: #8b8f96;
+
+
+
+
+
+
+
 }
+
+
+
+
+
+
 
 .about-introduction__story p {
+
+
+
+
+
+
+
   max-width: 31rem;
+
+
+
+
+
+
+
   margin: 0;
+
+
+
+
+
+
+
   color: #737373;
+
+
+
+
+
+
+
   font-size: 1.08rem;
+
+
+
+
+
+
+
   line-height: 1.85;
+
+
+
+
+
+
+
 }
+
+
+
+
+
+
 
 .about-introduction__signature {
+
+
+
+
+
+
+
   display: grid;
+
+
+
+
+
+
+
   align-self: start;
+
+
+
+
+
+
+
   grid-template-columns: 1fr;
+
+
+
+
+
+
+
   min-width: 0;
+
+
+
+
+
+
+
   border-top: 1px solid #e4e4e1;
+
+
+
+
+
+
+
 }
+
+
+
+
+
+
 
 .about-introduction__signature > div {
+
+
+
+
+
+
+
   display: flex;
+
+
+
+
+
+
+
   align-items: baseline;
+
+
+
+
+
+
+
   justify-content: space-between;
+
+
+
+
+
+
+
   gap: 1rem;
+
+
+
+
+
+
+
   padding: 1.15rem 0;
+
+
+
+
+
+
+
   border-bottom: 1px solid #e7e6e3;
+
+
+
+
+
+
+
 }
+
+
+
+
+
+
 
 .about-introduction__signature span {
+
+
+
+
+
+
+
   color: var(--color-accent, #3158ff);
+
+
+
+
+
+
+
   font-size: 0.68rem;
+
+
+
+
+
+
+
   font-weight: 700;
+
+
+
+
+
+
+
   letter-spacing: 0.08em;
+
+
+
+
+
+
+
 }
 
+
+
+
+
+
+
 .about-introduction__signature strong {
+
+
+
+
+
+
+
   color: #202020;
+
+
+
+
+
+
+
   font-size: 0.86rem;
+
+
+
+
+
+
+
   font-weight: 750;
+
+
+
+
+
+
+
   letter-spacing: 0.12em;
+
+
+
+
+
+
+
 }
+
+
+
+
+
+
 
 .about-focus__heading {
 
 
 
+
+
+
+
   display: grid;
+
+
+
+
 
 
 
@@ -2638,7 +6066,15 @@
 
 
 
+
+
+
+
   gap: 5rem;
+
+
+
+
 
 
 
@@ -2646,7 +6082,15 @@
 
 
 
+
+
+
+
   margin-bottom: 3rem;
+
+
+
+
 
 
 
@@ -2662,7 +6106,15 @@
 
 
 
+
+
+
+
   max-width: 25rem;
+
+
+
+
 
 
 
@@ -2670,7 +6122,15 @@
 
 
 
+
+
+
+
   color: #777;
+
+
+
+
 
 
 
@@ -2678,7 +6138,15 @@
 
 
 
+
+
+
+
   line-height: 1.8;
+
+
+
+
 
 
 
@@ -2694,7 +6162,15 @@
 
 
 
+
+
+
+
   display: grid;
+
+
+
+
 
 
 
@@ -2702,7 +6178,15 @@
 
 
 
+
+
+
+
   gap: 0.8rem;
+
+
+
+
 
 
 
@@ -2718,7 +6202,15 @@
 
 
 
+
+
+
+
   position: relative;
+
+
+
+
 
 
 
@@ -2726,7 +6218,15 @@
 
 
 
+
+
+
+
   min-height: 22rem;
+
+
+
+
 
 
 
@@ -2734,7 +6234,15 @@
 
 
 
+
+
+
+
   flex-direction: column;
+
+
+
+
 
 
 
@@ -2742,7 +6250,15 @@
 
 
 
+
+
+
+
   padding: 1.2rem;
+
+
+
+
 
 
 
@@ -2750,7 +6266,15 @@
 
 
 
+
+
+
+
   border-radius: 0.95rem;
+
+
+
+
 
 
 
@@ -2758,7 +6282,15 @@
 
 
 
+
+
+
+
   transition:
+
+
+
+
 
 
 
@@ -2766,11 +6298,23 @@
 
 
 
+
+
+
+
     border-color 220ms ease,
 
 
 
+
+
+
+
     box-shadow 220ms ease;
+
+
+
+
 
 
 
@@ -2786,7 +6330,15 @@
 
 
 
+
+
+
+
   transform: translateY(-6px);
+
+
+
+
 
 
 
@@ -2794,7 +6346,15 @@
 
 
 
+
+
+
+
   box-shadow: 0 1.5rem 3rem rgba(30, 30, 30, 0.06);
+
+
+
+
 
 
 
@@ -2810,7 +6370,15 @@
 
 
 
+
+
+
+
 .focus-card__bottom {
+
+
+
+
 
 
 
@@ -2818,7 +6386,15 @@
 
 
 
+
+
+
+
   align-items: center;
+
+
+
+
 
 
 
@@ -2826,7 +6402,15 @@
 
 
 
+
+
+
+
   color: #858585;
+
+
+
+
 
 
 
@@ -2834,11 +6418,23 @@
 
 
 
+
+
+
+
   font-weight: 700;
 
 
 
+
+
+
+
   letter-spacing: 0.1em;
+
+
+
+
 
 
 
@@ -2854,7 +6450,15 @@
 
 
 
+
+
+
+
   display: flex;
+
+
+
+
 
 
 
@@ -2862,7 +6466,15 @@
 
 
 
+
+
+
+
   justify-content: center;
+
+
+
+
 
 
 
@@ -2870,7 +6482,15 @@
 
 
 
+
+
+
+
   height: 1.9rem;
+
+
+
+
 
 
 
@@ -2878,11 +6498,23 @@
 
 
 
+
+
+
+
   border-radius: 50%;
 
 
 
+
+
+
+
   color: #3158ff;
+
+
+
+
 
 
 
@@ -2898,7 +6530,15 @@
 
 
 
+
+
+
+
   display: flex;
+
+
+
+
 
 
 
@@ -2906,7 +6546,15 @@
 
 
 
+
+
+
+
   justify-content: center;
+
+
+
+
 
 
 
@@ -2914,7 +6562,15 @@
 
 
 
+
+
+
+
   height: 3.7rem;
+
+
+
+
 
 
 
@@ -2922,7 +6578,15 @@
 
 
 
+
+
+
+
   border: 1px solid rgba(49, 88, 255, 0.15);
+
+
+
+
 
 
 
@@ -2930,7 +6594,15 @@
 
 
 
+
+
+
+
   background: rgba(49, 88, 255, 0.035);
+
+
+
+
 
 
 
@@ -2938,11 +6610,23 @@
 
 
 
+
+
+
+
   font-size: 0.82rem;
 
 
 
+
+
+
+
   font-weight: 700;
+
+
+
+
 
 
 
@@ -2958,11 +6642,23 @@
 
 
 
+
+
+
+
   margin-top: auto;
 
 
 
+
+
+
+
   padding-top: 2rem;
+
+
+
+
 
 
 
@@ -2978,7 +6674,15 @@
 
 
 
+
+
+
+
   margin: 0 0 0.75rem;
+
+
+
+
 
 
 
@@ -2986,7 +6690,15 @@
 
 
 
+
+
+
+
   font-size: 1.12rem;
+
+
+
+
 
 
 
@@ -2994,7 +6706,15 @@
 
 
 
+
+
+
+
   letter-spacing: -0.035em;
+
+
+
+
 
 
 
@@ -3010,7 +6730,15 @@
 
 
 
+
+
+
+
   margin: 0;
+
+
+
+
 
 
 
@@ -3018,11 +6746,23 @@
 
 
 
+
+
+
+
   font-size: 0.78rem;
 
 
 
+
+
+
+
   line-height: 1.75;
+
+
+
+
 
 
 
@@ -3038,7 +6778,15 @@
 
 
 
+
+
+
+
   padding-top: 1.4rem;
+
+
+
+
 
 
 
@@ -3046,7 +6794,15 @@
 
 
 
+
+
+
+
   border-top: 1px solid #eceae6;
+
+
+
+
 
 
 
@@ -3062,7 +6818,15 @@
 
 
 
+
+
+
+
 /* BUILD FLOW */
+
+
+
+
 
 
 
@@ -3078,7 +6842,15 @@
 
 
 
+
+
+
+
   display: grid;
+
+
+
+
 
 
 
@@ -3086,7 +6858,15 @@
 
 
 
+
+
+
+
   gap: 5rem;
+
+
+
+
 
 
 
@@ -3102,7 +6882,15 @@
 
 
 
+
+
+
+
   margin-bottom: 2rem;
+
+
+
+
 
 
 
@@ -3118,7 +6906,15 @@
 
 
 
+
+
+
+
   display: grid;
+
+
+
+
 
 
 
@@ -3126,11 +6922,23 @@
 
 
 
+
+
+
+
   border-top: 1px solid #e5e3df;
 
 
 
+
+
+
+
   border-left: 1px solid #e5e3df;
+
+
+
+
 
 
 
@@ -3146,7 +6954,15 @@
 
 
 
+
+
+
+
   position: relative;
+
+
+
+
 
 
 
@@ -3154,7 +6970,15 @@
 
 
 
+
+
+
+
   min-width: 0;
+
+
+
+
 
 
 
@@ -3162,11 +6986,23 @@
 
 
 
+
+
+
+
   border-right: 1px solid #e5e3df;
 
 
 
+
+
+
+
   border-bottom: 1px solid #e5e3df;
+
+
+
+
 
 
 
@@ -3182,7 +7018,15 @@
 
 
 
+
+
+
+
   color: #3158ff;
+
+
+
+
 
 
 
@@ -3190,11 +7034,23 @@
 
 
 
+
+
+
+
   font-weight: 700;
 
 
 
+
+
+
+
   letter-spacing: 0.1em;
+
+
+
+
 
 
 
@@ -3210,7 +7066,15 @@
 
 
 
+
+
+
+
   display: block;
+
+
+
+
 
 
 
@@ -3218,7 +7082,15 @@
 
 
 
+
+
+
+
   color: #858585;
+
+
+
+
 
 
 
@@ -3226,11 +7098,23 @@
 
 
 
+
+
+
+
   font-weight: 700;
 
 
 
+
+
+
+
   letter-spacing: 0.13em;
+
+
+
+
 
 
 
@@ -3246,7 +7130,15 @@
 
 
 
+
+
+
+
   margin: 0.65rem 0 0.75rem;
+
+
+
+
 
 
 
@@ -3254,7 +7146,15 @@
 
 
 
+
+
+
+
   font-size: 1.12rem;
+
+
+
+
 
 
 
@@ -3262,7 +7162,15 @@
 
 
 
+
+
+
+
   letter-spacing: -0.03em;
+
+
+
+
 
 
 
@@ -3278,7 +7186,15 @@
 
 
 
+
+
+
+
   max-width: 17rem;
+
+
+
+
 
 
 
@@ -3286,7 +7202,15 @@
 
 
 
+
+
+
+
   color: #777;
+
+
+
+
 
 
 
@@ -3294,7 +7218,15 @@
 
 
 
+
+
+
+
   line-height: 1.75;
+
+
+
+
 
 
 
@@ -3310,7 +7242,15 @@
 
 
 
+
+
+
+
   position: absolute;
+
+
+
+
 
 
 
@@ -3318,7 +7258,15 @@
 
 
 
+
+
+
+
   bottom: 1rem;
+
+
+
+
 
 
 
@@ -3326,7 +7274,15 @@
 
 
 
+
+
+
+
   font-size: 0.9rem;
+
+
+
+
 
 
 
@@ -3342,7 +7298,15 @@
 
 
 
+
+
+
+
 /* TECHNOLOGY STACK */
+
+
+
+
 
 
 
@@ -3358,7 +7322,15 @@
 
 
 
+
+
+
+
   display: grid;
+
+
+
+
 
 
 
@@ -3366,11 +7338,23 @@
 
 
 
+
+
+
+
   gap: 3rem;
 
 
 
+
+
+
+
   margin-bottom: 3.5rem;
+
+
+
+
 
 
 
@@ -3386,7 +7370,15 @@
 
 
 
+
+
+
+
   max-width: 32rem;
+
+
+
+
 
 
 
@@ -3394,7 +7386,15 @@
 
 
 
+
+
+
+
   color: #777;
+
+
+
+
 
 
 
@@ -3402,7 +7402,15 @@
 
 
 
+
+
+
+
   line-height: 1.8;
+
+
+
+
 
 
 
@@ -3418,7 +7426,15 @@
 
 
 
+
+
+
+
   border-top: 1px solid #e4e2dd;
+
+
+
+
 
 
 
@@ -3434,7 +7450,15 @@
 
 
 
+
+
+
+
   display: grid;
+
+
+
+
 
 
 
@@ -3442,7 +7466,15 @@
 
 
 
+
+
+
+
   gap: 3rem;
+
+
+
+
 
 
 
@@ -3450,7 +7482,15 @@
 
 
 
+
+
+
+
   border-bottom: 1px solid #e4e2dd;
+
+
+
+
 
 
 
@@ -3466,7 +7506,15 @@
 
 
 
+
+
+
+
   display: grid;
+
+
+
+
 
 
 
@@ -3474,7 +7522,15 @@
 
 
 
+
+
+
+
   gap: 1rem;
+
+
+
+
 
 
 
@@ -3490,7 +7546,15 @@
 
 
 
+
+
+
+
   color: #3158ff;
+
+
+
+
 
 
 
@@ -3498,11 +7562,23 @@
 
 
 
+
+
+
+
   font-weight: 700;
 
 
 
+
+
+
+
   letter-spacing: 0.1em;
+
+
+
+
 
 
 
@@ -3518,7 +7594,15 @@
 
 
 
+
+
+
+
   margin: 0;
+
+
+
+
 
 
 
@@ -3526,7 +7610,15 @@
 
 
 
+
+
+
+
   font-size: 1.15rem;
+
+
+
+
 
 
 
@@ -3534,7 +7626,15 @@
 
 
 
+
+
+
+
   letter-spacing: -0.035em;
+
+
+
+
 
 
 
@@ -3550,7 +7650,15 @@
 
 
 
+
+
+
+
   max-width: 18rem;
+
+
+
+
 
 
 
@@ -3558,7 +7666,15 @@
 
 
 
+
+
+
+
   color: #777;
+
+
+
+
 
 
 
@@ -3566,7 +7682,15 @@
 
 
 
+
+
+
+
   line-height: 1.7;
+
+
+
+
 
 
 
@@ -3582,7 +7706,15 @@
 
 
 
+
+
+
+
   display: grid;
+
+
+
+
 
 
 
@@ -3590,7 +7722,15 @@
 
 
 
+
+
+
+
   gap: 0.6rem;
+
+
+
+
 
 
 
@@ -3606,7 +7746,15 @@
 
 
 
+
+
+
+
   display: flex;
+
+
+
+
 
 
 
@@ -3614,7 +7762,15 @@
 
 
 
+
+
+
+
   gap: 0.85rem;
+
+
+
+
 
 
 
@@ -3622,7 +7778,15 @@
 
 
 
+
+
+
+
   min-height: 3.5rem;
+
+
+
+
 
 
 
@@ -3630,7 +7794,15 @@
 
 
 
+
+
+
+
   border: 1px solid #e7e5e0;
+
+
+
+
 
 
 
@@ -3638,7 +7810,15 @@
 
 
 
+
+
+
+
   background: rgba(255, 255, 255, 0.45);
+
+
+
+
 
 
 
@@ -3646,7 +7826,15 @@
 
 
 
+
+
+
+
   font-size: 0.76rem;
+
+
+
+
 
 
 
@@ -3654,7 +7842,15 @@
 
 
 
+
+
+
+
   transition:
+
+
+
+
 
 
 
@@ -3662,11 +7858,23 @@
 
 
 
+
+
+
+
     border-color 180ms ease,
 
 
 
+
+
+
+
     background 180ms ease;
+
+
+
+
 
 
 
@@ -3682,7 +7890,15 @@
 
 
 
+
+
+
+
   transform: translateY(-3px);
+
+
+
+
 
 
 
@@ -3690,7 +7906,15 @@
 
 
 
+
+
+
+
   background: rgba(49, 88, 255, 0.025);
+
+
+
+
 
 
 
@@ -3706,7 +7930,15 @@
 
 
 
+
+
+
+
   color: #555;
+
+
+
+
 
 
 
@@ -3722,7 +7954,15 @@
 
 
 
+
+
+
+
   fill: currentColor;
+
+
+
+
 
 
 
@@ -3738,7 +7978,15 @@
 
 
 
+
+
+
+
   margin-left: auto;
+
+
+
+
 
 
 
@@ -3746,7 +7994,15 @@
 
 
 
+
+
+
+
   opacity: 0;
+
+
+
+
 
 
 
@@ -3754,7 +8010,15 @@
 
 
 
+
+
+
+
   transition:
+
+
+
+
 
 
 
@@ -3762,7 +8026,15 @@
 
 
 
+
+
+
+
     transform 180ms ease;
+
+
+
+
 
 
 
@@ -3778,11 +8050,23 @@
 
 
 
+
+
+
+
   opacity: 1;
 
 
 
+
+
+
+
   transform: translate(0, 0);
+
+
+
+
 
 
 
@@ -3798,7 +8082,15 @@
 
 
 
+
+
+
+
 /* PRINCIPLES */
+
+
+
+
 
 
 
@@ -3814,7 +8106,15 @@
 
 
 
+
+
+
+
   display: grid;
+
+
+
+
 
 
 
@@ -3822,7 +8122,15 @@
 
 
 
+
+
+
+
   gap: 5rem;
+
+
+
+
 
 
 
@@ -3838,7 +8146,15 @@
 
 
 
+
+
+
+
   margin-bottom: 2rem;
+
+
+
+
 
 
 
@@ -3854,7 +8170,15 @@
 
 
 
+
+
+
+
   border-top: 1px solid #e5e3df;
+
+
+
+
 
 
 
@@ -3870,7 +8194,15 @@
 
 
 
+
+
+
+
   display: grid;
+
+
+
+
 
 
 
@@ -3878,7 +8210,15 @@
 
 
 
+
+
+
+
   align-items: center;
+
+
+
+
 
 
 
@@ -3886,11 +8226,23 @@
 
 
 
+
+
+
+
   min-height: 4.8rem;
 
 
 
+
+
+
+
   border-bottom: 1px solid #e5e3df;
+
+
+
+
 
 
 
@@ -3906,7 +8258,15 @@
 
 
 
+
+
+
+
   color: #3158ff;
+
+
+
+
 
 
 
@@ -3914,7 +8274,15 @@
 
 
 
+
+
+
+
   font-weight: 700;
+
+
+
+
 
 
 
@@ -3930,7 +8298,15 @@
 
 
 
+
+
+
+
   color: #333;
+
+
+
+
 
 
 
@@ -3938,7 +8314,15 @@
 
 
 
+
+
+
+
   font-weight: 550;
+
+
+
+
 
 
 
@@ -3954,7 +8338,15 @@
 
 
 
+
+
+
+
   color: #888;
+
+
+
+
 
 
 
@@ -3962,7 +8354,15 @@
 
 
 
+
+
+
+
   text-align: right;
+
+
+
+
 
 
 
@@ -3970,11 +8370,23 @@
 
 
 
+
+
+
+
     color 180ms ease,
 
 
 
+
+
+
+
     transform 180ms ease;
+
+
+
+
 
 
 
@@ -3990,11 +8402,23 @@
 
 
 
+
+
+
+
   color: #3158ff;
 
 
 
+
+
+
+
   transform: translate(3px, -3px);
+
+
+
+
 
 
 
@@ -4010,7 +8434,15 @@
 
 
 
+
+
+
+
 /* CTA */
+
+
+
+
 
 
 
@@ -4026,7 +8458,15 @@
 
 
 
+
+
+
+
   position: relative;
+
+
+
+
 
 
 
@@ -4034,7 +8474,15 @@
 
 
 
+
+
+
+
   grid-template-columns: 5rem minmax(0, 1fr) auto;
+
+
+
+
 
 
 
@@ -4042,7 +8490,15 @@
 
 
 
+
+
+
+
   align-items: end;
+
+
+
+
 
 
 
@@ -4050,7 +8506,15 @@
 
 
 
+
+
+
+
   margin: 2rem 0 5rem;
+
+
+
+
 
 
 
@@ -4058,7 +8522,15 @@
 
 
 
+
+
+
+
   border: 1px solid #e4e2dd;
+
+
+
+
 
 
 
@@ -4066,7 +8538,15 @@
 
 
 
+
+
+
+
   background:
+
+
+
+
 
 
 
@@ -4074,7 +8554,15 @@
 
 
 
+
+
+
+
       circle at 85% 10%,
+
+
+
+
 
 
 
@@ -4082,7 +8570,15 @@
 
 
 
+
+
+
+
       transparent 35%
+
+
+
+
 
 
 
@@ -4090,7 +8586,15 @@
 
 
 
+
+
+
+
     linear-gradient(
+
+
+
+
 
 
 
@@ -4098,7 +8602,15 @@
 
 
 
+
+
+
+
       #fafaf8,
+
+
+
+
 
 
 
@@ -4106,7 +8618,15 @@
 
 
 
+
+
+
+
     );
+
+
+
+
 
 
 
@@ -4122,7 +8642,15 @@
 
 
 
+
+
+
+
   position: absolute;
+
+
+
+
 
 
 
@@ -4130,7 +8658,15 @@
 
 
 
+
+
+
+
   bottom: -8rem;
+
+
+
+
 
 
 
@@ -4138,7 +8674,15 @@
 
 
 
+
+
+
+
   height: 20rem;
+
+
+
+
 
 
 
@@ -4146,7 +8690,15 @@
 
 
 
+
+
+
+
   background: rgba(49, 88, 255, 0.07);
+
+
+
+
 
 
 
@@ -4154,7 +8706,15 @@
 
 
 
+
+
+
+
   pointer-events: none;
+
+
+
+
 
 
 
@@ -4170,7 +8730,15 @@
 
 
 
+
+
+
+
   position: relative;
+
+
+
+
 
 
 
@@ -4178,7 +8746,15 @@
 
 
 
+
+
+
+
   display: flex;
+
+
+
+
 
 
 
@@ -4186,7 +8762,15 @@
 
 
 
+
+
+
+
   gap: 0.45rem;
+
+
+
+
 
 
 
@@ -4194,7 +8778,15 @@
 
 
 
+
+
+
+
   font-size: 0.62rem;
+
+
+
+
 
 
 
@@ -4202,7 +8794,15 @@
 
 
 
+
+
+
+
   letter-spacing: 0.12em;
+
+
+
+
 
 
 
@@ -4218,7 +8818,15 @@
 
 
 
+
+
+
+
   color: #3158ff;
+
+
+
+
 
 
 
@@ -4234,7 +8842,15 @@
 
 
 
+
+
+
+
   position: relative;
+
+
+
+
 
 
 
@@ -4242,7 +8858,15 @@
 
 
 
+
+
+
+
   min-width: 0;
+
+
+
+
 
 
 
@@ -4258,7 +8882,15 @@
 
 
 
+
+
+
+
   max-width: 680px;
+
+
+
+
 
 
 
@@ -4266,7 +8898,15 @@
 
 
 
+
+
+
+
   color: #1b1b1b;
+
+
+
+
 
 
 
@@ -4274,7 +8914,15 @@
 
 
 
+
+
+
+
   font-weight: 620;
+
+
+
+
 
 
 
@@ -4282,7 +8930,15 @@
 
 
 
+
+
+
+
   line-height: 0.9;
+
+
+
+
 
 
 
@@ -4298,11 +8954,23 @@
 
 
 
+
+
+
+
   display: block;
 
 
 
+
+
+
+
   color: #777;
+
+
+
+
 
 
 
@@ -4318,7 +8986,15 @@
 
 
 
+
+
+
+
   max-width: 32rem;
+
+
+
+
 
 
 
@@ -4326,7 +9002,15 @@
 
 
 
+
+
+
+
   color: #777;
+
+
+
+
 
 
 
@@ -4334,7 +9018,15 @@
 
 
 
+
+
+
+
   line-height: 1.8;
+
+
+
+
 
 
 
@@ -4350,7 +9042,15 @@
 
 
 
+
+
+
+
   position: relative;
+
+
+
+
 
 
 
@@ -4358,11 +9058,23 @@
 
 
 
+
+
+
+
   display: flex;
 
 
 
+
+
+
+
   gap: 0.55rem;
+
+
+
+
 
 
 
@@ -4378,7 +9090,15 @@
 
 
 
+
+
+
+
   display: inline-flex;
+
+
+
+
 
 
 
@@ -4386,7 +9106,15 @@
 
 
 
+
+
+
+
   gap: 0.6rem;
+
+
+
+
 
 
 
@@ -4394,7 +9122,15 @@
 
 
 
+
+
+
+
   padding: 0.72rem 1.05rem;
+
+
+
+
 
 
 
@@ -4402,7 +9138,15 @@
 
 
 
+
+
+
+
   border-radius: 999px;
+
+
+
+
 
 
 
@@ -4410,7 +9154,15 @@
 
 
 
+
+
+
+
   font-weight: 700;
+
+
+
+
 
 
 
@@ -4418,7 +9170,15 @@
 
 
 
+
+
+
+
   transition:
+
+
+
+
 
 
 
@@ -4426,11 +9186,23 @@
 
 
 
+
+
+
+
     border-color 180ms ease,
 
 
 
+
+
+
+
     background 180ms ease;
+
+
+
+
 
 
 
@@ -4446,7 +9218,15 @@
 
 
 
+
+
+
+
   transform: translateY(-2px);
+
+
+
+
 
 
 
@@ -4462,7 +9242,15 @@
 
 
 
+
+
+
+
   border-color: #1e1e1e;
+
+
+
+
 
 
 
@@ -4470,7 +9258,15 @@
 
 
 
+
+
+
+
   color: white;
+
+
+
+
 
 
 
@@ -4486,7 +9282,15 @@
 
 
 
+
+
+
+
   border-color: #dfddd8;
+
+
+
+
 
 
 
@@ -4494,7 +9298,15 @@
 
 
 
+
+
+
+
   color: #333;
+
+
+
+
 
 
 
@@ -4510,7 +9322,15 @@
 
 
 
+
+
+
+
 /* RESPONSIVE */
+
+
+
+
 
 
 
@@ -4526,7 +9346,15 @@
 
 
 
+
+
+
+
   .about-hero__main {
+
+
+
+
 
 
 
@@ -4534,7 +9362,15 @@
 
 
 
+
+
+
+
       minmax(0, 0.82fr)
+
+
+
+
 
 
 
@@ -4542,7 +9378,15 @@
 
 
 
+
+
+
+
     gap: 2.25rem;
+
+
+
+
 
 
 
@@ -4558,11 +9402,23 @@
 
 
 
+
+
+
+
     max-width: 500px;
 
 
 
+
+
+
+
     font-size: clamp(3.8rem, 5.8vw, 5.8rem);
+
+
+
+
 
 
 
@@ -4578,7 +9434,15 @@
 
 
 
+
+
+
+
     padding: 1.15rem;
+
+
+
+
 
 
 
@@ -4594,15 +9458,15 @@
 
 
 
+
+
+
+
     grid-template-columns:
 
 
 
-      minmax(0, 1fr)
 
-
-
-      minmax(1.2rem, 1.5rem)
 
 
 
@@ -4610,7 +9474,31 @@
 
 
 
+
+
+
+
       minmax(1.2rem, 1.5rem)
+
+
+
+
+
+
+
+      minmax(0, 1fr)
+
+
+
+
+
+
+
+      minmax(1.2rem, 1.5rem)
+
+
+
+
 
 
 
@@ -4618,7 +9506,15 @@
 
 
 
+
+
+
+
     gap: 0.35rem;
+
+
+
+
 
 
 
@@ -4634,7 +9530,15 @@
 
 
 
+
+
+
+
     padding: 0.65rem;
+
+
+
+
 
 
 
@@ -4650,11 +9554,23 @@
 
 
 
+
+
+
+
     font-size: 0.7rem;
 
 
 
+
+
+
+
   }
+
+
+
+
 
 
 
@@ -4670,7 +9586,15 @@
 
 
 
+
+
+
+
   .about-hero__main {
+
+
+
+
 
 
 
@@ -4678,7 +9602,15 @@
 
 
 
+
+
+
+
     gap: 3rem;
+
+
+
+
 
 
 
@@ -4694,7 +9626,15 @@
 
 
 
+
+
+
+
     max-width: 55rem;
+
+
+
+
 
 
 
@@ -4710,11 +9650,23 @@
 
 
 
+
+
+
+
     max-width: 700px;
 
 
 
+
+
+
+
     font-size: clamp(3.8rem, 9vw, 6rem);
+
+
+
+
 
 
 
@@ -4730,7 +9682,15 @@
 
 
 
+
+
+
+
     min-height: 27rem;
+
+
+
+
 
 
 
@@ -4746,7 +9706,15 @@
 
 
 
+
+
+
+
     grid-template-columns: repeat(2, minmax(0, 1fr));
+
+
+
+
 
 
 
@@ -4762,7 +9730,15 @@
 
 
 
+
+
+
+
   .about-principles {
+
+
+
+
 
 
 
@@ -4770,7 +9746,15 @@
 
 
 
+
+
+
+
     gap: 3rem;
+
+
+
+
 
 
 
@@ -4786,11 +9770,23 @@
 
 
 
+
+
+
+
     grid-template-columns: minmax(0, 1fr) auto;
 
 
 
+
+
+
+
   }
+
+
+
+
 
 
 
@@ -4806,11 +9802,23 @@
 
 
 
+
+
+
+
   .about-page {
 
 
 
+
+
+
+
     padding-top: 1rem;
+
+
+
+
 
 
 
@@ -4826,11 +9834,23 @@
 
 
 
+
+
+
+
     padding-top: 1.5rem;
 
 
 
+
+
+
+
     padding-bottom: 2rem;
+
+
+
+
 
 
 
@@ -4846,7 +9866,15 @@
 
 
 
+
+
+
+
     margin-bottom: 2rem;
+
+
+
+
 
 
 
@@ -4862,11 +9890,23 @@
 
 
 
+
+
+
+
     max-width: 100%;
 
 
 
+
+
+
+
     font-size: clamp(3.2rem, 13vw, 5rem);
+
+
+
+
 
 
 
@@ -4882,63 +9922,311 @@
 
 
 
+
+
+
+
     margin-top: 2rem;
 
 
 
+
+
+
+
   }
+
+
+
+
+
+
 
   .about-introduction {
+
+
+
+
+
+
+
     padding-top: 4.5rem;
+
+
+
+
+
+
+
     padding-bottom: 5rem;
+
+
+
+
+
+
+
   }
+
+
+
+
+
+
 
   .about-introduction__topline {
+
+
+
+
+
+
+
     grid-template-columns: 1fr auto;
+
+
+
+
+
+
+
     gap: 1rem;
+
+
+
+
+
+
+
   }
+
+
+
+
+
+
 
   .about-introduction__topline-label {
+
+
+
+
+
+
+
     display: none;
+
+
+
+
+
+
+
   }
+
+
+
+
+
+
 
   .about-introduction__content {
+
+
+
+
+
+
+
     grid-template-columns: 1fr;
+
+
+
+
+
+
+
     gap: 3rem;
+
+
+
+
+
+
+
     padding-top: 2.5rem;
+
+
+
+
+
+
+
   }
+
+
+
+
+
+
 
   .about-introduction__statement {
+
+
+
+
+
+
+
     padding-right: 0;
+
+
+
+
+
+
+
   }
+
+
+
+
+
+
 
   .about-introduction__statement::after {
+
+
+
+
+
+
+
     display: none;
+
+
+
+
+
+
+
   }
+
+
+
+
+
+
 
   .about-introduction__approach {
+
+
+
+
+
+
+
     padding-left: 0;
+
+
+
+
+
+
+
   }
+
+
+
+
+
+
 
   .about-introduction__bottom {
+
+
+
+
+
+
+
     grid-template-columns: 1fr 1fr;
+
+
+
+
+
+
+
     gap: 2rem;
+
+
+
+
+
+
+
   }
 
+
+
+
+
+
+
   .about-introduction__signature {
+
+
+
+
+
+
+
     grid-column: 1 / -1;
+
+
+
+
+
+
+
     max-width: 24rem;
+
+
+
+
+
+
+
   }
+
+
+
+
+
+
 
   .about-focus__heading {
 
 
 
+
+
+
+
     grid-template-columns: 1fr;
 
 
 
+
+
+
+
     gap: 1.5rem;
+
+
+
+
 
 
 
@@ -4954,11 +10242,23 @@
 
 
 
+
+
+
+
     grid-template-columns: 1fr;
 
 
 
+
+
+
+
     gap: 2rem;
+
+
+
+
 
 
 
@@ -4974,11 +10274,23 @@
 
 
 
+
+
+
+
     grid-template-columns: 1fr;
 
 
 
+
+
+
+
     gap: 2rem;
+
+
+
+
 
 
 
@@ -4994,7 +10306,15 @@
 
 
 
+
+
+
+
     grid-template-columns: 1fr;
+
+
+
+
 
 
 
@@ -5002,11 +10322,23 @@
 
 
 
+
+
+
+
     padding: 2.5rem;
 
 
 
+
+
+
+
   }
+
+
+
+
 
 
 
@@ -5019,60 +10351,365 @@
 
 
 @media (max-width: 800px) {
+
+
+
+
+
+
+
   .about-introduction__hero {
+
+
+
+
+
+
+
     grid-template-columns: 1fr;
+
+
+
+
+
+
+
     gap: 2.5rem;
+
+
+
+
+
+
+
   }
+
+
+
+
+
+
 
   .about-introduction__statement {
+
+
+
+
+
+
+
     padding-right: 0;
+
+
+
+
+
+
+
   }
+
+
+
+
+
+
 
   .about-introduction__visual {
+
+
+
+
+
+
+
     max-width: 48rem;
+
+
+
+
+
+
+
   }
+
+
+
+
+
+
 
   .about-introduction__lower {
+
+
+
+
+
+
+
     grid-template-columns: 1fr 1fr;
+
+
+
+
+
+
+
   }
 
+
+
+
+
+
+
   .about-introduction__signature {
+
+
+
+
+
+
+
     grid-column: 1 / -1;
+
+
+
+
+
+
+
     grid-template-columns: repeat(3, minmax(0, 1fr));
+
+
+
+
+
+
+
     gap: 0.8rem;
+
+
+
+
+
+
+
     border-top: 0;
+
+
+
+
+
+
+
   }
+
+
+
+
+
+
 
   .about-introduction__signature > div {
+
+
+
+
+
+
+
     flex-direction: column;
+
+
+
+
+
+
+
     gap: 0.4rem;
+
+
+
+
+
+
+
     border: 1px solid #e7e6e3;
+
+
+
+
+
+
+
     padding: 0.8rem;
+
+
+
+
+
+
+
   }
+
+
+
+
+
+
+
 }
 
+
+
+
+
+
+
 @media (max-width: 640px) {
+
+
+
+
+
+
+
   .about-introduction__statement h2 {
+
+
+
+
+
+
+
     font-size: clamp(3.5rem, 16vw, 5rem);
+
+
+
+
+
+
+
   }
+
+
+
+
+
+
 
   .about-introduction__bottom {
+
+
+
+
+
+
+
     grid-template-columns: 1fr;
+
+
+
+
+
+
+
   }
+
+
+
+
+
+
 
   .about-introduction__signature {
+
+
+
+
+
+
+
     grid-column: auto;
+
+
+
+
+
+
+
     max-width: none;
+
+
+
+
+
+
+
   }
+
+
+
+
+
+
 
   .about-introduction__principle {
+
+
+
+
+
+
+
     grid-template-columns: 1.8rem minmax(0, 1fr) 0.8rem;
+
+
+
+
+
+
+
     gap: 0.7rem;
+
+
+
+
+
+
+
   }
 
+
+
+
+
+
+
   .about-introduction__principle:hover {
+
+
+
+
+
+
+
     padding-left: 0.35rem;
+
+
+
+
+
+
+
   }
+
+
+
+
+
+
+
 }
 
 
@@ -5082,53 +10719,306 @@
 
 
 @media (max-width: 640px) {
+
+
+
+
+
+
+
   .about-introduction {
+
+
+
+
+
+
+
     padding-top: 4.5rem;
+
+
+
+
+
+
+
     padding-bottom: 4.5rem;
+
+
+
+
+
+
+
   }
+
+
+
+
+
+
 
   .about-introduction__topline {
+
+
+
+
+
+
+
     grid-template-columns: 1fr auto;
+
+
+
+
+
+
+
     gap: 1rem;
+
+
+
+
+
+
+
   }
+
+
+
+
+
+
 
   .about-introduction__topline-label {
+
+
+
+
+
+
+
     display: none;
+
+
+
+
+
+
+
   }
+
+
+
+
+
+
 
   .about-introduction__topline-status {
+
+
+
+
+
+
+
     font-size: 0.6rem;
+
+
+
+
+
+
+
   }
+
+
+
+
+
+
 
   .about-introduction__hero {
+
+
+
+
+
+
+
     padding-top: 2rem;
+
+
+
+
+
+
+
     padding-bottom: 3rem;
+
+
+
+
+
+
+
   }
+
+
+
+
+
+
 
   .about-introduction__statement h2 {
+
+
+
+
+
+
+
     font-size: clamp(3.4rem, 15vw, 5rem);
+
+
+
+
+
+
+
   }
+
+
+
+
+
+
 
   .about-introduction__lead {
+
+
+
+
+
+
+
     font-size: 1rem;
+
+
+
+
+
+
+
   }
+
+
+
+
+
+
 
   .about-introduction__visual figcaption {
+
+
+
+
+
+
+
     flex-direction: column;
+
+
+
+
+
+
+
     gap: 0.35rem;
+
+
+
+
+
+
+
   }
+
+
+
+
+
+
 
   .about-introduction__lower {
+
+
+
+
+
+
+
     grid-template-columns: 1fr;
+
+
+
+
+
+
+
     gap: 2.2rem;
+
+
+
+
+
+
+
   }
+
+
+
+
+
+
 
   .about-introduction__signature {
+
+
+
+
+
+
+
     grid-column: auto;
+
+
+
+
+
+
+
   }
+
+
+
+
+
+
+
 }
 
+
+
+
+
+
+
 @keyframes architecture-packet-mobile {
+
+
+
+
 
 
 
@@ -5136,11 +11026,23 @@
 
 
 
+
+
+
+
     top: 0;
 
 
 
+
+
+
+
     opacity: 0;
+
+
+
+
 
 
 
@@ -5156,7 +11058,15 @@
 
 
 
+
+
+
+
     opacity: 1;
+
+
+
+
 
 
 
@@ -5172,7 +11082,15 @@
 
 
 
+
+
+
+
     opacity: 1;
+
+
+
+
 
 
 
@@ -5188,7 +11106,15 @@
 
 
 
+
+
+
+
     top: calc(100% - 0.4rem);
+
+
+
+
 
 
 
@@ -5196,7 +11122,15 @@
 
 
 
+
+
+
+
   }
+
+
+
+
 
 
 
@@ -5212,7 +11146,15 @@
 
 
 
+
+
+
+
 /* REDUCED MOTION */
+
+
+
+
 
 
 
@@ -5228,15 +11170,39 @@
 
 
 
+
+
+
+
   .about-hero__title-scramble,
 
+
+
+
+
+
+
   .about-hero__title-rotation-layer,
+
+
+
+
+
+
 
   .about-hero__title-rotating {
 
 
 
+
+
+
+
     transition: none;
+
+
+
+
 
 
 
@@ -5246,7 +11212,13 @@
 
 
 
+
+
   .architecture-flow__packet,
+
+
+
+
 
 
 
@@ -5254,7 +11226,15 @@
 
 
 
+
+
+
+
     animation: none;
+
+
+
+
 
 
 
@@ -5270,7 +11250,15 @@
 
 
 
+
+
+
+
   .focus-card,
+
+
+
+
 
 
 
@@ -5278,7 +11266,15 @@
 
 
 
+
+
+
+
   .hero-technology,
+
+
+
+
 
 
 
@@ -5286,7 +11282,15 @@
 
 
 
+
+
+
+
   .principle__arrow,
+
+
+
+
 
 
 
@@ -5294,7 +11298,15 @@
 
 
 
+
+
+
+
   .about-hero__scroll-button {
+
+
+
+
 
 
 
@@ -5302,94 +11314,1751 @@
 
 
 
+
+
+
+
   }
+
+
+
+
 
 
 
 }
+
+
+
+
+
+
+
 /* Final responsive rules for THE DEVELOPER section */
+
+
+
+
+
+
+
 @media (max-width: 900px) {
+
+
+
+
+
+
+
   .about-introduction__hero {
+
+
+
+
+
+
+
     grid-template-columns: 1fr;
+
+
+
+
+
+
+
     gap: 2.75rem;
+
+
+
+
+
+
+
   }
+
+
+
+
+
+
 
   .about-introduction__visual {
+
+
+
+
+
+
+
     max-width: none;
+
+
+
+
+
+
+
   }
+
+
+
+
+
+
 
   .about-introduction__principles {
+
+
+
+
+
+
+
     grid-template-columns: 1fr;
+
+
+
+
+
+
+
   }
+
+
+
+
+
+
 
   .about-introduction__principle,
-  .about-introduction__principle + .about-introduction__principle {
-    padding: 1.35rem 0;
-    border-left: 0;
-  }
+
+
+
+
+
+
 
   .about-introduction__principle + .about-introduction__principle {
-    border-top: 1px solid #e7e6e3;
+
+
+
+
+
+
+
+    padding: 1.35rem 0;
+
+
+
+
+
+
+
+    border-left: 0;
+
+
+
+
+
+
+
   }
+
+
+
+
+
+
+
+  .about-introduction__principle + .about-introduction__principle {
+
+
+
+
+
+
+
+    border-top: 1px solid #e7e6e3;
+
+
+
+
+
+
+
+  }
+
+
+
+
+
+
 
   .about-introduction__story-block {
+
+
+
+
+
+
+
     grid-template-columns: 1fr 1fr;
+
+
+
+
+
+
+
   }
 
+
+
+
+
+
+
   .about-introduction__signature {
+
+
+
+
+
+
+
     grid-column: 1 / -1;
+
+
+
+
+
+
+
     grid-template-columns: repeat(3, minmax(0, 1fr));
+
+
+
+
+
+
+
     gap: 1rem;
+
+
+
+
+
+
+
     border-top: 1px solid #e4e4e1;
+
+
+
+
+
+
+
   }
+
+
+
+
+
+
 
   .about-introduction__signature > div {
+
+
+
+
+
+
+
     padding: 0.9rem 0;
+
+
+
+
+
+
+
+  }
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+@media (max-width: 640px) {
+
+
+
+
+
+
+
+  .about-introduction {
+
+
+
+
+
+
+
+    padding-top: 4.5rem;
+
+
+
+
+
+
+
+    padding-bottom: 4.5rem;
+
+
+
+
+
+
+
+  }
+
+
+
+
+
+
+
+  .about-introduction__topline {
+
+
+
+
+
+
+
+    grid-template-columns: 1fr auto;
+
+
+
+
+
+
+
+    gap: 1rem;
+
+
+
+
+
+
+
+  }
+
+
+
+
+
+
+
+  .about-introduction__topline-label {
+
+
+
+
+
+
+
+    display: none;
+
+
+
+
+
+
+
+  }
+
+
+
+
+
+
+
+  .about-introduction__topline-status {
+
+
+
+
+
+
+
+    font-size: 0.48rem;
+
+
+
+
+
+
+
+  }
+
+
+
+
+
+
+
+  .about-introduction__hero {
+
+
+
+
+
+
+
+    padding: 3.2rem 0 3.5rem;
+
+
+
+
+
+
+
+  }
+
+
+
+
+
+
+
+  .about-introduction__statement h2 {
+
+
+
+
+
+
+
+    font-size: clamp(3.35rem, 15vw, 5rem);
+
+
+
+
+
+
+
+  }
+
+
+
+
+
+
+
+  .about-introduction__lead {
+
+
+
+
+
+
+
+    font-size: 0.92rem;
+
+
+
+
+
+
+
+  }
+
+
+
+
+
+
+
+  .about-introduction__visual figcaption {
+
+
+
+
+
+
+
+    flex-direction: column;
+
+
+
+
+
+
+
+    gap: 0.35rem;
+
+
+
+
+
+
+
+  }
+
+
+
+
+
+
+
+  .about-introduction__story-block {
+
+
+
+
+
+
+
+    grid-template-columns: 1fr;
+
+
+
+
+
+
+
+    gap: 2rem;
+
+
+
+
+
+
+
+  }
+
+
+
+
+
+
+
+  .about-introduction__signature {
+
+
+
+
+
+
+
+    grid-column: auto;
+
+
+
+
+
+
+
+  }
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+/* ================================================== */
+
+
+
+/* ==================================================
+
+   WHAT I BUILD — PREMIUM EDITORIAL LAYOUT
+
+   ================================================== */
+
+
+
+.about-focus {
+
+  position: relative;
+
+  scroll-margin-top: 96px;
+
+  isolation: isolate;
+
+  overflow: clip;
+
+}
+
+
+
+.about-focus::before {
+
+  content: '';
+
+  position: absolute;
+
+  top: 7rem;
+
+  left: 50%;
+
+  z-index: -1;
+
+  width: min(72rem, 100%);
+
+  height: 34rem;
+
+  pointer-events: none;
+
+  background: radial-gradient(circle, rgba(49, 88, 255, 0.055), transparent 66%);
+
+  transform: translateX(-50%);
+
+}
+
+
+
+.about-focus__heading {
+
+  grid-template-columns: minmax(0, 1fr) minmax(20rem, 0.48fr);
+
+  gap: clamp(3rem, 7vw, 8rem);
+
+  align-items: end;
+
+  margin-bottom: clamp(3rem, 5vw, 4.5rem);
+
+}
+
+
+
+.about-focus__heading h2 {
+
+  max-width: 48rem;
+
+  margin-top: 0.8rem;
+
+  font-size: clamp(3.4rem, 6vw, 6.4rem);
+
+  font-weight: 650;
+
+  letter-spacing: -0.075em;
+
+  line-height: 0.9;
+
+}
+
+
+
+.about-focus__heading > p {
+
+  max-width: 25rem;
+
+  margin: 0 0 0.35rem;
+
+  color: #686868;
+
+  font-size: 0.98rem;
+
+  line-height: 1.85;
+
+}
+
+
+
+.about-focus__grid {
+
+  display: grid;
+
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+
+  gap: 1.1rem;
+
+  align-items: stretch;
+
+}
+
+
+
+.about-focus .focus-card {
+
+  position: relative;
+
+  min-height: 21rem;
+
+  padding: 1.5rem;
+
+  border: 1px solid rgba(28, 28, 28, 0.1);
+
+  border-radius: 1.15rem;
+
+  background: #f8f8f6;
+
+  box-shadow: 0 1rem 2.8rem rgba(20, 20, 20, 0.035);
+
+  transition: transform 280ms cubic-bezier(0.22, 1, 0.36, 1), border-color 280ms ease, box-shadow 280ms ease;
+
+}
+
+
+
+.about-focus .focus-card:nth-child(1) {
+
+  grid-column: 1 / span 7;
+
+  min-height: 24rem;
+
+}
+
+
+
+.about-focus .focus-card:nth-child(2) {
+
+  grid-column: 8 / span 5;
+
+}
+
+
+
+.about-focus .focus-card:nth-child(3) {
+
+  grid-column: 1 / span 5;
+
+}
+
+
+
+.about-focus .focus-card:nth-child(4) {
+
+  grid-column: 6 / span 7;
+
+  min-height: 24rem;
+
+}
+
+
+
+.about-focus .focus-card::after {
+
+  content: '';
+
+  position: absolute;
+
+  top: 0;
+
+  right: 0;
+
+  bottom: 0;
+
+  z-index: 0;
+
+  width: 46%;
+
+  pointer-events: none;
+
+  background-position: center;
+
+  background-size: cover;
+
+  opacity: 0.9;
+
+  -webkit-mask-image: linear-gradient(90deg, transparent 0%, rgba(0, 0, 0, 0.5) 22%, #000 58%);
+
+  mask-image: linear-gradient(90deg, transparent 0%, rgba(0, 0, 0, 0.5) 22%, #000 58%);
+
+  transition: transform 500ms cubic-bezier(0.22, 1, 0.36, 1), opacity 300ms ease;
+
+}
+
+
+
+.about-focus .focus-card:nth-child(1)::after {
+
+  background-image: url('https://images.unsplash.com/photo-1515879218367-8466d910aaa4?auto=format&fit=crop&fm=jpg&q=85&w=1000');
+
+}
+
+
+
+.about-focus .focus-card:nth-child(4)::after {
+
+  background-image: url('https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&fm=jpg&q=85&w=1000');
+
+}
+
+
+
+.about-focus .focus-card:nth-child(2)::after,
+
+.about-focus .focus-card:nth-child(3)::after {
+
+  width: 58%;
+
+  opacity: 0.7;
+
+  background-image:
+
+    radial-gradient(circle at 60% 50%, rgba(49, 88, 255, 0.12) 0 1px, transparent 1px),
+
+    linear-gradient(135deg, transparent 0 38%, rgba(49, 88, 255, 0.06) 38% 39%, transparent 39% 100%);
+
+  background-size: 14px 14px, 100% 100%;
+
+  -webkit-mask-image: linear-gradient(90deg, transparent 0%, #000 62%);
+
+  mask-image: linear-gradient(90deg, transparent 0%, #000 62%);
+
+}
+
+
+
+.about-focus .focus-card:nth-child(3)::after {
+
+  background-image:
+
+    radial-gradient(circle at 55% 45%, rgba(49, 88, 255, 0.14) 0 1px, transparent 1px),
+
+    linear-gradient(90deg, transparent 49.5%, rgba(49, 88, 255, 0.08) 49.5% 50.5%, transparent 50.5%);
+
+  background-size: 16px 16px, 100% 100%;
+
+}
+
+
+
+.about-focus .focus-card::before {
+
+  content: '';
+
+  position: absolute;
+
+  top: 0;
+
+  left: 1.5rem;
+
+  z-index: 3;
+
+  width: 2.8rem;
+
+  height: 2px;
+
+  background: rgba(49, 88, 255, 0.35);
+
+  transition: width 240ms ease, background 240ms ease;
+
+}
+
+
+
+.about-focus .focus-card:hover {
+
+  transform: translateY(-7px);
+
+  border-color: rgba(49, 88, 255, 0.22);
+
+  box-shadow: 0 1.8rem 4rem rgba(20, 20, 20, 0.075);
+
+}
+
+
+
+.about-focus .focus-card:hover::before {
+
+  width: 5.5rem;
+
+  background: #3158ff;
+
+}
+
+
+
+.about-focus .focus-card:hover::after {
+
+  opacity: 1;
+
+  transform: scale(1.045);
+
+}
+
+
+
+.about-focus .focus-card__top,
+
+.about-focus .focus-card__body,
+
+.about-focus .focus-card__bottom,
+
+.about-focus .focus-card__icon-box {
+
+  position: relative;
+
+  z-index: 2;
+
+}
+
+
+
+.about-focus .focus-card__top {
+
+  color: #777;
+
+  font-size: 0.66rem;
+
+  letter-spacing: 0.12em;
+
+}
+
+
+
+.about-focus .focus-card__symbol {
+
+  width: 2.2rem;
+
+  height: 2.2rem;
+
+  border-color: rgba(28, 28, 28, 0.12);
+
+  background: rgba(255, 255, 255, 0.78);
+
+  color: #3158ff;
+
+  backdrop-filter: blur(10px);
+
+}
+
+
+
+.about-focus .focus-card__icon-box {
+
+  width: 4.25rem;
+
+  height: 4.25rem;
+
+  margin-top: 2.35rem;
+
+  border: 1px solid rgba(49, 88, 255, 0.15);
+
+  border-radius: 1.1rem;
+
+  background: rgba(255, 255, 255, 0.78);
+
+  color: #3158ff;
+
+  box-shadow: 0 0.8rem 2rem rgba(49, 88, 255, 0.075);
+
+  backdrop-filter: blur(10px);
+
+}
+
+
+
+.about-focus .focus-card__body {
+
+  max-width: 31rem;
+
+  padding-top: 1.7rem;
+
+}
+
+
+
+.about-focus .focus-card__body h3 {
+
+  margin: 0 0 0.7rem;
+
+  color: #171717;
+
+  font-size: clamp(1.45rem, 1.9vw, 1.9rem);
+
+  font-weight: 650;
+
+  letter-spacing: -0.045em;
+
+  line-height: 1.05;
+
+}
+
+
+
+.about-focus .focus-card__body p {
+
+  max-width: 32rem;
+
+  margin: 0;
+
+  color: #707070;
+
+  font-size: 0.92rem;
+
+  line-height: 1.75;
+
+}
+
+
+
+.about-focus .focus-card__bottom {
+
+  padding-top: 1.15rem;
+
+  margin-top: 1.5rem;
+
+  border-top-color: rgba(35, 35, 35, 0.1);
+
+  color: #818181;
+
+  font-size: 0.6rem;
+
+}
+
+
+
+@media (max-width: 1100px) {
+
+  .about-focus__grid {
+
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+
+  }
+
+
+
+  .about-focus .focus-card:nth-child(n) {
+
+    grid-column: auto;
+
+  }
+
+}
+
+
+
+@media (max-width: 800px) {
+
+  .about-focus__heading {
+
+    grid-template-columns: 1fr;
+
+    gap: 1.5rem;
+
+  }
+
+
+
+  .about-focus__heading h2 {
+
+    font-size: clamp(3rem, 11vw, 5rem);
+
+  }
+
+
+
+  .about-focus .focus-card {
+
+    min-height: 20rem;
+
+  }
+
+}
+
+
+
+@media (max-width: 700px) {
+
+  .about-focus__grid {
+
+    grid-template-columns: 1fr;
+
+  }
+
+
+
+  .about-focus .focus-card:nth-child(n) {
+
+    grid-column: auto;
+
+  }
+
+
+
+  .about-focus .focus-card:nth-child(1),
+
+  .about-focus .focus-card:nth-child(4) {
+
+    min-height: 21rem;
+
+  }
+
+
+
+  .about-focus .focus-card::after {
+
+    width: 52%;
+
+    opacity: 0.55;
+
+  }
+
+}
+
+
+
+@media (prefers-reduced-motion: reduce) {
+
+  .about-focus .focus-card,
+
+  .about-focus .focus-card::before,
+
+  .about-focus .focus-card::after {
+
+    transition: none;
+
+  }
+
+}
+
+
+/* ==================================================
+   WHAT I BUILD — PREMIUM FLIP CARDS
+   ================================================== */
+
+.about-focus {
+  position: relative;
+  scroll-margin-top: 96px;
+  isolation: isolate;
+}
+
+.about-focus__heading {
+  display: grid;
+  grid-template-columns: minmax(0, 1.15fr) minmax(16rem, 0.65fr);
+  gap: clamp(2.5rem, 6vw, 6rem);
+  align-items: end;
+  margin-bottom: clamp(2.75rem, 5vw, 4rem);
+}
+
+.about-focus__heading h2 {
+  max-width: 52rem;
+  margin: 0.9rem 0 0;
+  color: #171717;
+  font-size: clamp(3.4rem, 6vw, 5.8rem);
+  font-weight: 680;
+  letter-spacing: -0.075em;
+  line-height: 0.9;
+}
+
+.about-focus__heading h2 span {
+  display: block;
+  color: #858585;
+}
+
+.about-focus__heading > p {
+  max-width: 27rem;
+  margin: 0 0 0.25rem;
+  color: #6f6f6f;
+  font-size: 0.92rem;
+  line-height: 1.85;
+}
+
+.about-focus__heading-side {
+  display: flex;
+  min-width: 0;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.35rem;
+}
+
+.about-focus__flip-control {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.8rem;
+  padding: 0.38rem 0.45rem 0.38rem 0.75rem;
+  border: 1px solid rgba(35, 35, 35, 0.1);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.72);
+  box-shadow: 0 0.7rem 1.6rem rgba(25, 25, 25, 0.045), inset 0 1px 0 rgba(255, 255, 255, 0.92);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+.about-focus__flip-label {
+  color: #8a8a8a;
+  font-size: 0.56rem;
+  font-weight: 750;
+  letter-spacing: 0.13em;
+}
+
+.about-focus__flip-switch {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+  min-height: 2rem;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: #303030;
+  font: inherit;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.about-focus__flip-switch-track {
+  position: relative;
+  display: block;
+  width: 2.65rem;
+  height: 1.45rem;
+  padding: 0.16rem;
+  box-sizing: border-box;
+  border: 1px solid rgba(35, 35, 35, 0.14);
+  border-radius: 999px;
+  background: #dededb;
+  transition: background 220ms ease, border-color 220ms ease, box-shadow 220ms ease;
+}
+
+.about-focus__flip-switch-thumb {
+  display: block;
+  width: 1.05rem;
+  height: 1.05rem;
+  border-radius: 50%;
+  background: #ffffff;
+  box-shadow: 0 0.2rem 0.55rem rgba(20, 20, 20, 0.16);
+  transform: translateX(0);
+  transition: transform 220ms cubic-bezier(0.22, 1, 0.36, 1), box-shadow 220ms ease;
+}
+
+.about-focus__flip-switch.is-on .about-focus__flip-switch-track {
+  border-color: rgba(49, 88, 255, 0.45);
+  background: #3158ff;
+  box-shadow: 0 0 0 3px rgba(49, 88, 255, 0.08);
+}
+
+.about-focus__flip-switch.is-on .about-focus__flip-switch-thumb {
+  transform: translateX(1.18rem);
+}
+
+.about-focus__flip-switch-state {
+  min-width: 3.6rem;
+  color: #4b4b4b;
+  font-size: 0.62rem;
+  font-weight: 750;
+  letter-spacing: 0.03em;
+  text-align: left;
+}
+
+.about-focus__flip-switch.is-on .about-focus__flip-switch-state {
+  color: #3158ff;
+}
+
+.about-focus__flip-switch:focus-visible {
+  outline: 2px solid rgba(49, 88, 255, 0.42);
+  outline-offset: 4px;
+  border-radius: 999px;
+}
+
+.about-focus.flip-disabled .focus-card__button {
+  cursor: default;
+}
+
+.about-focus.flip-disabled .focus-card__button:hover .focus-card__symbol {
+  transform: none;
+  background: transparent;
+}
+
+.about-focus__grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.25rem;
+  align-items: stretch;
+}
+
+.about-focus .focus-card,
+.about-focus .focus-card:nth-child(1),
+.about-focus .focus-card:nth-child(2),
+.about-focus .focus-card:nth-child(3),
+.about-focus .focus-card:nth-child(4) {
+  grid-column: auto;
+  position: relative;
+  min-width: 0;
+  min-height: 26rem;
+  padding: 0;
+  border: 0;
+  border-radius: 1.35rem;
+  background: transparent;
+  box-shadow: none;
+  overflow: visible;
+  transform: none;
+}
+
+.about-focus .focus-card:hover {
+  transform: none;
+}
+
+.about-focus .focus-card::before,
+.about-focus .focus-card::after {
+  content: none !important;
+  display: none !important;
+}
+
+.focus-card__button {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+  min-height: 26rem;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  border-radius: 1.35rem;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+  transform-style: preserve-3d;
+  transition: transform 320ms cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.about-focus .focus-card.is-flipped .focus-card__button {
+  transform: rotateY(180deg);
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .about-focus:not(.flip-disabled) .focus-card:hover .focus-card__button {
+    transform: rotateY(180deg);
+  }
+
+  .about-focus .focus-card:hover .focus-card__face--front::before,
+  .about-focus .focus-card:focus-within .focus-card__face--front::before {
+    width: 7rem;
   }
 }
 
-@media (max-width: 640px) {
-  .about-introduction {
-    padding-top: 4.5rem;
-    padding-bottom: 4.5rem;
+.focus-card__button:focus-visible {
+  outline: 2px solid rgba(49, 88, 255, 0.55);
+  outline-offset: 5px;
+  border-radius: 1.5rem;
+}
+
+.focus-card__inner {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+  min-height: 26rem;
+  transform-style: preserve-3d;
+}
+
+.focus-card__face {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  min-height: 26rem;
+  flex-direction: column;
+  overflow: hidden;
+  box-sizing: border-box;
+  border: 1px solid rgba(28, 28, 28, 0.1);
+  border-radius: 1.35rem;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+
+.focus-card__face--front {
+  padding: 1.5rem;
+  justify-content: space-between;
+  background:
+    radial-gradient(circle at 86% 18%, rgba(49, 88, 255, 0.1), transparent 30%),
+    linear-gradient(145deg, #ffffff 0%, #f7f8fa 100%);
+  box-shadow:
+    0 1.25rem 3rem rgba(25, 25, 25, 0.055),
+    inset 0 1px 0 rgba(255, 255, 255, 0.95);
+}
+
+.focus-card__face--front::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 1.5rem;
+  width: 3.25rem;
+  height: 2px;
+  background: #3158ff;
+  opacity: 0.72;
+  transition: width 300ms ease;
+}
+
+.focus-card__button:focus-visible .focus-card__face--front::before {
+  width: 7rem;
+}
+
+.about-focus .focus-card__top {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #858585;
+  font-size: 0.62rem;
+  font-weight: 750;
+  letter-spacing: 0.14em;
+}
+
+.focus-card__number {
+  color: #3158ff;
+}
+
+.about-focus .focus-card__symbol {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.15rem;
+  height: 2.15rem;
+  border: 1px solid rgba(49, 88, 255, 0.16);
+  border-radius: 50%;
+  color: #3158ff;
+  font-size: 0.9rem;
+  transition: transform 300ms ease, background 300ms ease;
+}
+
+.focus-card__button:hover .focus-card__symbol,
+.focus-card__button:focus-visible .about-focus .focus-card__symbol {
+  transform: rotate(45deg);
+  background: rgba(49, 88, 255, 0.06);
+}
+
+.focus-card__visual {
+  position: absolute;
+  top: 50%;
+  right: 2.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 9.5rem;
+  height: 9.5rem;
+  transform: translateY(-54%);
+  border-radius: 50%;
+  color: #3158ff;
+}
+
+.focus-card__visual-ring,
+.focus-card__visual-ring::before,
+.focus-card__visual-ring::after {
+  position: absolute;
+  border: 1px solid rgba(49, 88, 255, 0.14);
+  border-radius: 50%;
+}
+
+.focus-card__visual-ring {
+  inset: 0;
+}
+
+.focus-card__visual-ring::before,
+.focus-card__visual-ring::after {
+  content: '';
+  inset: 1.1rem;
+}
+
+.focus-card__visual-ring::after {
+  inset: 2.2rem;
+  border-color: rgba(49, 88, 255, 0.22);
+}
+
+.focus-card__visual-core {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 4.2rem;
+  height: 4.2rem;
+  border: 1px solid rgba(49, 88, 255, 0.18);
+  border-radius: 1.1rem;
+  background: rgba(255, 255, 255, 0.82);
+  box-shadow: 0 0.8rem 2rem rgba(49, 88, 255, 0.09);
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+}
+
+.about-focus .focus-card__body {
+  position: relative;
+  z-index: 2;
+  max-width: 72%;
+  margin-top: auto;
+  padding-top: 9rem;
+}
+
+.focus-card__eyebrow {
+  display: block;
+  margin-bottom: 0.7rem;
+  color: #3158ff;
+  font-size: 0.58rem;
+  font-weight: 750;
+  letter-spacing: 0.15em;
+}
+
+.focus-card__title {
+  display: block;
+  color: #181818;
+  font-size: clamp(1.45rem, 2vw, 1.85rem);
+  font-weight: 680;
+  letter-spacing: -0.045em;
+  line-height: 1.05;
+}
+
+.focus-card__description {
+  display: block;
+  max-width: 30rem;
+  margin-top: 0.75rem;
+  color: #6f6f6f;
+  font-size: 0.8rem;
+  line-height: 1.7;
+}
+
+.about-focus .focus-card__bottom {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 1.35rem;
+  padding-top: 1rem;
+  border-top: 1px solid rgba(30, 30, 30, 0.08);
+  color: #858585;
+  font-size: 0.58rem;
+  font-weight: 750;
+  letter-spacing: 0.13em;
+}
+
+.about-focus .focus-card__bottom span:last-child {
+  color: #3158ff;
+  font-size: 0.9rem;
+}
+
+.focus-card__face--back {
+  z-index: 3;
+  padding: 1.7rem;
+  transform: rotateY(180deg);
+  background:
+    radial-gradient(circle at 92% 8%, rgba(49, 88, 255, 0.28), transparent 30%),
+    linear-gradient(145deg, #1c1f27 0%, #101217 100%);
+  border-color: rgba(49, 88, 255, 0.28);
+  color: #fff;
+  box-shadow: 0 1.4rem 3.5rem rgba(20, 25, 35, 0.16);
+}
+
+.focus-card__face--back::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0.18;
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.08) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.08) 1px, transparent 1px);
+  background-size: 2rem 2rem;
+  mask-image: linear-gradient(to bottom, #000, transparent 90%);
+}
+
+.focus-card__back-top {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: rgba(255, 255, 255, 0.58);
+  font-size: 0.6rem;
+  font-weight: 750;
+  letter-spacing: 0.14em;
+}
+
+.focus-card__back-top span:first-child {
+  color: #7e9bff;
+}
+
+.focus-card__back-title {
+  position: relative;
+  z-index: 1;
+  display: block;
+  max-width: 80%;
+  margin-top: auto;
+  color: #ffffff;
+  font-size: clamp(1.55rem, 2vw, 2rem);
+  font-weight: 680;
+  letter-spacing: -0.045em;
+  line-height: 1.05;
+}
+
+.focus-card__details {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  gap: 0.65rem;
+  margin-top: 1.5rem;
+}
+
+.focus-card__detail {
+  display: grid;
+  grid-template-columns: 1rem minmax(0, 1fr);
+  gap: 0.45rem;
+  align-items: center;
+  color: rgba(255, 255, 255, 0.78);
+  font-size: 0.76rem;
+  line-height: 1.4;
+}
+
+.focus-card__detail > span:first-child {
+  color: #6e8dff;
+}
+
+.focus-card__back-footer {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: auto;
+  padding-top: 1rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.12);
+  color: rgba(255, 255, 255, 0.45);
+  font-size: 0.56rem;
+  font-weight: 750;
+  letter-spacing: 0.13em;
+}
+
+.focus-card__back-footer span:last-child {
+  color: #7e9bff;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 900px) {
+  .about-focus__heading {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
   }
 
-  .about-introduction__topline {
-    grid-template-columns: 1fr auto;
+  .about-focus__heading-side {
+    gap: 1.1rem;
+  }
+
+  .about-focus__heading > p {
+    max-width: 34rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .about-focus__grid {
+    grid-template-columns: 1fr;
     gap: 1rem;
   }
 
-  .about-introduction__topline-label {
-    display: none;
+  .about-focus .focus-card,
+  .about-focus .focus-card:nth-child(n),
+  .focus-card__button,
+  .focus-card__inner,
+  .focus-card__face {
+    min-height: 24rem;
   }
 
-  .about-introduction__topline-status {
-    font-size: 0.48rem;
+  .focus-card__face--front,
+  .focus-card__face--back {
+    padding: 1.3rem;
   }
 
-  .about-introduction__hero {
-    padding: 3.2rem 0 3.5rem;
+  .focus-card__visual {
+    right: 1.35rem;
+    width: 7.5rem;
+    height: 7.5rem;
   }
 
-  .about-introduction__statement h2 {
-    font-size: clamp(3.35rem, 15vw, 5rem);
-  }
-
-  .about-introduction__lead {
-    font-size: 0.92rem;
-  }
-
-  .about-introduction__visual figcaption {
-    flex-direction: column;
-    gap: 0.35rem;
-  }
-
-  .about-introduction__story-block {
-    grid-template-columns: 1fr;
-    gap: 2rem;
-  }
-
-  .about-introduction__signature {
-    grid-column: auto;
+  .about-focus .focus-card__body {
+    max-width: 78%;
+    padding-top: 7rem;
   }
 }
+
+@media (prefers-reduced-motion: reduce) {
+  .focus-card__inner,
+  .focus-card__visual,
+  .focus-card__symbol,
+  .focus-card__face--front::before {
+    transition: none;
+  }
+}
+
+
+/* ==================================================
+   WHAT I BUILD — TOUCH FRIENDLY FLIP INTERACTION
+   ================================================== */
+
+.focus-card__button {
+  -webkit-tap-highlight-color: transparent;
+  touch-action: manipulation;
+}
+
+.focus-card__button::after {
+  content: '';
+  position: absolute;
+  right: 1.35rem;
+  bottom: 1.05rem;
+  width: 0.45rem;
+  height: 0.45rem;
+  border-radius: 50%;
+  background: #3158ff;
+  opacity: 0.45;
+  pointer-events: none;
+  transition: transform 180ms ease, opacity 180ms ease;
+}
+
+.focus-card.is-flipped .focus-card__button::after {
+  transform: scale(0.7);
+  opacity: 0.9;
+}
+
+@media (hover: none), (pointer: coarse) {
+  .focus-card__button:active {
+    transform: scale(0.992);
+  }
+}
+
+.focus-card__back-footer {
+  transition: color 220ms ease;
+}
+
+@media (max-width: 700px) {
+  .focus-card__button {
+    cursor: pointer;
+  }
+
+  .focus-card__bottom,
+  .focus-card__back-footer {
+    letter-spacing: 0.11em;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .focus-card__button,
+  .focus-card__visual,
+  .focus-card__symbol,
+  .focus-card__face--front::before {
+    transition: none;
+  }
+}
+
+
